@@ -1,0 +1,196 @@
+{
+  "entries": [
+    {
+      "property": "2500-naomi",
+      "category": "subject",
+      "lat": 34.197493,
+      "lng": -118.339768,
+      "place_id": "lightbox:0201V605I0SXJCZZ9OS1LV",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2500 N Naomi St. LightBox parcel coordinate for AIN 2466-014-017, verified on the roof against the LA County LARIAC building footprint on satellite imagery, 2026-08-26 (exc-pin-provisional)."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 1,
+      "lat": 34.193769,
+      "lng": -118.342677,
+      "place_id": "lacounty:2464006015",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2253 N Niagara St #B, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 2,
+      "lat": 34.194704,
+      "lng": -118.340869,
+      "place_id": "lacounty:2464008018",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2324 N Catalina St #H, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 3,
+      "lat": 34.20013,
+      "lng": -118.337486,
+      "place_id": "lacounty:2473019004",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2420 N Buena Vista St #A, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 4,
+      "lat": 34.194665,
+      "lng": -118.342627,
+      "place_id": "lacounty:2464005052",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2321 N Niagara St #F, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 5,
+      "lat": 34.197093,
+      "lng": -118.326558,
+      "place_id": "lacounty:2468015027",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "Castillian Apartments, 2021 Grismer Ave #26, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 6,
+      "lat": 34.196919,
+      "lng": -118.330563,
+      "place_id": "lacounty:2468016029",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2025 Peyton Ave #118, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 7,
+      "lat": 34.200001,
+      "lng": -118.337054,
+      "place_id": "lacounty:2473019002",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2421 N Brighton St, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 8,
+      "lat": 34.194349,
+      "lng": -118.324252,
+      "place_id": "lacounty:2468005051",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "1721 Scott Rd, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "rent",
+      "order": 9,
+      "lat": 34.205438,
+      "lng": -118.328573,
+      "place_id": "lacounty:2469018009",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "3001 Jolley Dr, Burbank. LA County parcel coordinate, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "active",
+      "order": 1,
+      "lat": 34.196614,
+      "lng": -118.326227,
+      "place_id": "lacounty:2468015084",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "2001-2005 Grismer Ave, Burbank. LA County parcel coordinate for AIN 2468-015-084, verified 2026-08-26."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "sold",
+      "order": 1,
+      "lat": 34.184895,
+      "lng": -118.300427,
+      "place_id": "lacounty:2455010024",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "638 E Tujunga Ave, Burbank. LA County parcel coordinate, verified 2026-08-26. Sourced from the 2001-2005 Grismer Ave offering memorandum."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "sold",
+      "order": 2,
+      "lat": 34.155059,
+      "lng": -118.339899,
+      "place_id": "lacounty:2483012023",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "215 N Cordova St, Burbank. LA County parcel coordinate, verified 2026-08-26. Sourced from the 2001-2005 Grismer Ave offering memorandum."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "sold",
+      "order": 3,
+      "lat": 34.188262,
+      "lng": -118.309009,
+      "place_id": "lacounty:2455038011",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "536 E Cypress Ave, Burbank. LA County parcel coordinate, verified 2026-08-26. Sourced from the 2001-2005 Grismer Ave offering memorandum."
+    },
+    {
+      "property": "2500-naomi",
+      "category": "sold",
+      "order": 4,
+      "lat": 34.165656,
+      "lng": -118.312144,
+      "place_id": "lacounty:2451031009",
+      "precision": "ROOFTOP",
+      "needs_review": false,
+      "source_note": "420 W Elmwood Ave, Burbank. LA County parcel coordinate, verified 2026-08-26. Sourced from the 2001-2005 Grismer Ave offering memorandum."
+    }
+  ],
+  "renders": {
+    "images/maps-portfolio-subjects.png": "3986ee6ffb32e54b3cd3f9ea1246a2308820df03ca59b1bf4a2c878938843c50",
+    "images/maps-portfolio-subjects-tall.png": "2412f10b93d2fc81334325012e17456f4aba9b76e5ab10b3a64de078c120d6ce",
+    "images/maps-2500-naomi-subject.png": "b7be4df078a590026a7c751295ca18178bed7e164625abb14c948d5072409afc",
+    "images/maps-2500-naomi-subject-tall.png": "2bbe5c2102d2f981c60318e1fadcca1042f743adddcf26963a9af08b9b442099",
+    "images/maps-2500-naomi-sale-comps.png": "e281bfec6cfe0fdc7ec1d6ef2fc21fc54197d65928a20882182efb883dcace1f",
+    "images/maps-2500-naomi-sale-comps-tall.png": "90b830680ecc3a756ac169ade8705d7f94b4f0eac8f8e8a0a290ff0e3cc91236",
+    "images/maps-2500-naomi-rent-comps.png": "d6821e051bb9722681180760608ac73c72df3189130ab013a98bda2400690996",
+    "images/maps-2500-naomi-rent-comps-tall.png": "f774f3c97e4e66cca3d648f57220c9080dc813598b35b40053f57e73eb3ba36f",
+    "images/maps-2500-naomi-active-comps.png": "06aa8acb7740ee823a271405963c31879df9f6f5f9c256062881d5d21f53fcdc",
+    "images/maps-2500-naomi-active-comps-tall.png": "bcbbab40fe5c78274476a4d20a625d48aeb55053e0293a28958fe70d4ad3413f",
+    "images/maps-2500-naomi-closings.png": "1f5ecf7e7e61a046bd7b8be9f82b78641ea3e96b1481ca87d603420df49474bc"
+  },
+  "closings": {
+    "2500-naomi": {
+      "source": "https://www.laaa.com/track-record",
+      "pulled": "2026-08-26T23:48:12+00:00",
+      "basis": {
+        "type": "submarket",
+        "label": "Burbank"
+      },
+      "apartment_sales": 10,
+      "other_closings": 3,
+      "apartment_markers": 9,
+      "other_markers": 2,
+      "render": "images/maps-2500-naomi-closings.png"
+    }
+  }
+}
