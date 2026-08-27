@@ -1013,6 +1013,7 @@ def _build_payload(workspace: DealWorkspace) -> dict:
             "grm": comp["grm"],
             "cap_rate": _fraction_to_percent(comp["cap_rate"]),
             "image": comp.get("image"),
+            "restatement": comp.get("restatement"),
             "summary": comp["weight_reason"],
             "relevance": "; ".join(comp["physical_differences"]) or "Physical comparison recorded.",
             "considerations": "; ".join(comp["operational_differences"]) or "Operating comparison recorded.",

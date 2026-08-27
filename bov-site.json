@@ -51,7 +51,7 @@
       },
       {
         "name": "Morgan Wetmore",
-        "title": "Associate",
+        "title": "Associate, Investments",
         "phone": "(818) 212-2724",
         "tel": "8182122724",
         "email": "Morgan.Wetmore@marcusmillichap.com",
@@ -288,7 +288,7 @@
         {
           "count": 4,
           "type": "1 Bed / 1 Bath",
-          "sf": 658,
+          "sf": 675,
           "rent_current": 1883,
           "monthly_current": 7533,
           "rent_market": 2000,
@@ -298,22 +298,22 @@
         {
           "count": 3,
           "type": "2 Bed / 2 Bath",
-          "sf": null,
+          "sf": 900,
           "rent_current": 2600,
           "monthly_current": 7800,
           "rent_market": 2700,
           "monthly_market": 8100,
-          "sf_basis": "omitted"
+          "sf_basis": "labelled_estimate"
         },
         {
           "count": 1,
           "type": "3 Bed / 2 Bath",
-          "sf": null,
+          "sf": 1200,
           "rent_current": 3200,
           "monthly_current": 3200,
           "rent_market": 3200,
           "monthly_market": 3200,
-          "sf_basis": "omitted"
+          "sf_basis": "labelled_estimate"
         }
       ],
       "operating": {
@@ -511,7 +511,7 @@
       ],
       "physical_narrative": [
         "The building is a two-story wood-frame structure of 6,844 gross SF built in 1990, sitting on a 50 by 135 foot lot of 6,892 SF zoned BUR4. The footprint runs the depth of the parcel with the narrow elevation addressing N Naomi Street, and residential floors sit above gated parking at grade. County records show the property in tax rate area 2-530 with no flood hazard exposure: FEMA Zone X, an area of minimal flood hazard.",
-        "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Published unit areas for the one-bedroom plans run from 625 to 700 SF. No published area is available for the two-bedroom or three-bedroom plans, so those are left blank here rather than estimated.",
+        "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Unit sizes are approximate: roughly 675 SF for the one-bedroom plans, 900 SF for the two-bedroom plans and 1,200 SF for the three-bedroom. The county publishes gross building area only, so these are broker estimates and are labelled as approximate throughout. They total 6,600 SF rentable against 6,844 SF gross. Price per square foot on this analysis uses the 6,844 SF gross figure.",
         "The condition of the vacant units is the reason the lease-up assumption in this analysis is a reasonable one rather than a hopeful one. These are units that can be shown and leased in their current state, not units that need a renovation budget before they produce income. A buyer should still verify condition, systems and any deferred maintenance through inspection."
       ],
       "market_narrative": [
@@ -527,7 +527,7 @@
       ],
       "valuation_narrative": [
         "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-        "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+        "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
         "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
       ],
       "strategy": [
@@ -564,7 +564,7 @@
         "Insurance is carried at the LAAA underwriting allowance of $8,444, calculated as eight units at $200 plus 6,844 gross SF at $1.00 per SF. Ownership's actual 2025 premium is $6,939. The allowance is used so a buyer is underwritten to a market replacement policy rather than to an incumbent's rate.",
         "A management fee at 4.0% of effective gross income and replacement reserves at $250 per unit per year are added to ownership's reported costs. Ownership's expense schedule carries neither line, so together these represent $10,629 of annual cost a buyer will incur that the seller does not currently report.",
         "Five units carry no rent on ownership's rent roll and enter scheduled income at asking rents of $2,000, $2,700 and $3,200. This accounts for $151,200 of the $222,396 current scheduled gross rent. Stated current cap rate and gross rent multiplier are calculated on that basis.",
-        "Per-unit square footage is published for three one-bedroom units only, at 625, 650 and 700 SF. No per-unit area is available for the two-bedroom or three-bedroom plans, so those rows are left blank rather than estimated. Building-level figures use the 6,844 SF assessor gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
+        "Per-unit square footage is approximate. The county publishes gross building area only, so the 675, 900 and 1,200 SF unit sizes shown are broker estimates and are labelled as approximations wherever they appear. They total 6,600 SF rentable against 6,844 SF gross. All building-level figures, including price per square foot, use the 6,844 SF gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
         "The City of Burbank has no rent stabilization ordinance. Rent increases are governed by AB 1482 at the lower of 5% plus CPI or 10% through January 1, 2030, and Burbank's Tenant Protection Ordinance, effective August 31, 2024 and amended March 11, 2025, applies just-cause, relocation and anti-harassment rules to covered units. On October 28, 2025 the City Council directed staff to draft a 4% soft cap on rent increases; that ordinance has not been adopted as of this date, and the drafted version would reach buildings with certificates of occupancy before February 2, 1995.",
         "This is a broker's opinion of value prepared for the owner, not an appraisal. It relies on public records, ownership-provided documents and published asking rents, none of which have been independently audited. Comparable income for all four sales is as published by the 2001-2005 Grismer Avenue listing brokerage and has not been independently audited. Nine recorded-transfer-tax sales screened within 1.75 miles were excluded from this analysis as stale and income-free. A buyer should verify unit count, condition, systems, parking configuration, permits and all income and expense figures through inspection and diligence."
       ],
@@ -736,6 +736,7 @@
           "grm": 14.46,
           "cap_rate": 5.0,
           "image": null,
+          "restatement": null,
           "summary": "The most recent closed eight-unit sale of the subject's construction era anywhere in Burbank, and the only comparable in the whole set that pairs the subject's unit count and vintage with a published cap rate.",
           "relevance": "Eight units in 10,020 SF, so the average unit is roughly 1,253 SF against the subject's 856 SF. The per-unit figure reflects that size difference and does not transfer to the subject; the $469.06 per SF does.",
           "considerations": "Closed at a 5.00% cap on $235,187 of net operating income, February 2026. 2.4 miles from the subject.",
@@ -756,6 +757,7 @@
           "grm": 14.91,
           "cap_rate": 4.73,
           "image": null,
+          "restatement": null,
           "summary": "Second eight-unit late-1980s Burbank sale with published income, closed five weeks before Tujunga and at a comparable price per square foot.",
           "relevance": "Eight units in 8,416 SF, an average of 1,052 SF against the subject's 856 SF.",
           "considerations": "Closed at a 4.73% cap on $189,702 of net operating income, January 2026.",
@@ -776,6 +778,7 @@
           "grm": 16.09,
           "cap_rate": 4.3999999999999995,
           "image": null,
+          "restatement": null,
           "summary": "Larger 1986 building that sets the low end of the per-square-foot range and the low end of the cap range in the published-income set.",
           "relevance": "Thirteen units in 15,012 SF, an average of 1,155 SF.",
           "considerations": "Closed at a 4.40% cap on $214,569 of net operating income, February 2025.",
@@ -796,6 +799,7 @@
           "grm": 15.94,
           "cap_rate": 3.8699999999999997,
           "image": null,
+          "restatement": null,
           "summary": "Oldest trade in the published-income set and the sharpest cap in it; useful as the floor of the yield range rather than as a pricing anchor.",
           "relevance": "Nine units in 9,310 SF, an average of 1,034 SF.",
           "considerations": "Closed at a 3.87% cap on $136,513 of net operating income, August 2024.",
@@ -818,6 +822,11 @@
           "grm": 14.46,
           "cap_rate": 4.5600000000000005,
           "image": null,
+          "restatement": {
+            "price": 4500000,
+            "label": "Grismer at $4,500,000",
+            "basis": "The third column restates 2001-2005 Grismer Avenue's own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing's fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer's sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject's 5.06% sits on income already at market, because five of eight units convey vacant and reset on day one."
+          },
           "summary": "The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $359,375 per unit and $420.08 per SF at a 5.06% cap and a 12.93 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 6.0% cheaper per unit and 11.0% cheaper per SF, on a half point more going-in yield.",
           "relevance": "Fourteen units in 11,334 SF on an 11,440 SF lot, built 1987, all two-bedroom two-bath. The subject is eight units in 6,844 SF on 6,892 SF, built 1990, with a mix of one, two and three-bedroom plans.",
           "considerations": "Marketed as 100% occupied on the May 2026 rent roll, so a buyer inherits the rent basis on all fourteen units. The subject conveys five of eight units vacant, which is the structural difference between the two offerings.; Marcus & Millichap listing, on market since 2026-06-26. Cap rate and gross rent multiplier are the marketed asking figures, not a closed transaction.",
@@ -981,7 +990,7 @@
         "property_details": {
           "physical_narrative": [
             "The building is a two-story wood-frame structure of 6,844 gross SF built in 1990, sitting on a 50 by 135 foot lot of 6,892 SF zoned BUR4. The footprint runs the depth of the parcel with the narrow elevation addressing N Naomi Street, and residential floors sit above gated parking at grade. County records show the property in tax rate area 2-530 with no flood hazard exposure: FEMA Zone X, an area of minimal flood hazard.",
-            "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Published unit areas for the one-bedroom plans run from 625 to 700 SF. No published area is available for the two-bedroom or three-bedroom plans, so those are left blank here rather than estimated.",
+            "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Unit sizes are approximate: roughly 675 SF for the one-bedroom plans, 900 SF for the two-bedroom plans and 1,200 SF for the three-bedroom. The county publishes gross building area only, so these are broker estimates and are labelled as approximate throughout. They total 6,600 SF rentable against 6,844 SF gross. Price per square foot on this analysis uses the 6,844 SF gross figure.",
             "The condition of the vacant units is the reason the lease-up assumption in this analysis is a reasonable one rather than a hopeful one. These are units that can be shown and leased in their current state, not units that need a renovation budget before they produce income. A buyer should still verify condition, systems and any deferred maintenance through inspection."
           ]
         },
@@ -1013,7 +1022,7 @@
         "financial_analysis": {
           "valuation_narrative": [
             "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
             "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
           ],
           "disclosures": [
@@ -1022,7 +1031,7 @@
             "Insurance is carried at the LAAA underwriting allowance of $8,444, calculated as eight units at $200 plus 6,844 gross SF at $1.00 per SF. Ownership's actual 2025 premium is $6,939. The allowance is used so a buyer is underwritten to a market replacement policy rather than to an incumbent's rate.",
             "A management fee at 4.0% of effective gross income and replacement reserves at $250 per unit per year are added to ownership's reported costs. Ownership's expense schedule carries neither line, so together these represent $10,629 of annual cost a buyer will incur that the seller does not currently report.",
             "Five units carry no rent on ownership's rent roll and enter scheduled income at asking rents of $2,000, $2,700 and $3,200. This accounts for $151,200 of the $222,396 current scheduled gross rent. Stated current cap rate and gross rent multiplier are calculated on that basis.",
-            "Per-unit square footage is published for three one-bedroom units only, at 625, 650 and 700 SF. No per-unit area is available for the two-bedroom or three-bedroom plans, so those rows are left blank rather than estimated. Building-level figures use the 6,844 SF assessor gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
+            "Per-unit square footage is approximate. The county publishes gross building area only, so the 675, 900 and 1,200 SF unit sizes shown are broker estimates and are labelled as approximations wherever they appear. They total 6,600 SF rentable against 6,844 SF gross. All building-level figures, including price per square foot, use the 6,844 SF gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
             "The City of Burbank has no rent stabilization ordinance. Rent increases are governed by AB 1482 at the lower of 5% plus CPI or 10% through January 1, 2030, and Burbank's Tenant Protection Ordinance, effective August 31, 2024 and amended March 11, 2025, applies just-cause, relocation and anti-harassment rules to covered units. On October 28, 2025 the City Council directed staff to draft a 4% soft cap on rent increases; that ordinance has not been adopted as of this date, and the drafted version would reach buildings with certificates of occupancy before February 2, 1995.",
             "This is a broker's opinion of value prepared for the owner, not an appraisal. It relies on public records, ownership-provided documents and published asking rents, none of which have been independently audited. Comparable income for all four sales is as published by the 2001-2005 Grismer Avenue listing brokerage and has not been independently audited. Nine recorded-transfer-tax sales screened within 1.75 miles were excluded from this analysis as stale and income-free. A buyer should verify unit count, condition, systems, parking configuration, permits and all income and expense figures through inspection and diligence."
           ]
@@ -1220,7 +1229,7 @@
           "support_refs": [
             "deal:unit_count",
             "deal:building_sf",
-            "sources:src-assessor"
+            "sources:src-title"
           ],
           "framed_as": null,
           "text": "Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans"
@@ -1309,7 +1318,7 @@
           "id": "physical-1",
           "claim_type": "verified_fact",
           "support_refs": [
-            "sources:src-assessor",
+            "sources:src-title",
             "deal:building_sf",
             "deal:lot"
           ],
@@ -1323,7 +1332,7 @@
             "sources:src-listing-portal"
           ],
           "framed_as": null,
-          "text": "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Published unit areas for the one-bedroom plans run from 625 to 700 SF. No published area is available for the two-bedroom or three-bedroom plans, so those are left blank here rather than estimated."
+          "text": "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Unit sizes are approximate: roughly 675 SF for the one-bedroom plans, 900 SF for the two-bedroom plans and 1,200 SF for the three-bedroom. The county publishes gross building area only, so these are broker estimates and are labelled as approximate throughout. They total 6,600 SF rentable against 6,844 SF gross. Price per square foot on this analysis uses the 6,844 SF gross figure."
         },
         {
           "id": "physical-3",
@@ -1461,7 +1470,7 @@
             "pricing:decision"
           ],
           "framed_as": null,
-          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
+          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
         },
         {
           "id": "valuation-3",
@@ -1531,7 +1540,7 @@
             "sources:src-listing-portal"
           ],
           "framed_as": null,
-          "text": "Per-unit square footage is published for three one-bedroom units only, at 625, 650 and 700 SF. No per-unit area is available for the two-bedroom or three-bedroom plans, so those rows are left blank rather than estimated. Building-level figures use the 6,844 SF assessor gross area, which is why the building-level price per square foot differs from any unit-level calculation."
+          "text": "Per-unit square footage is approximate. The county publishes gross building area only, so the 675, 900 and 1,200 SF unit sizes shown are broker estimates and are labelled as approximations wherever they appear. They total 6,600 SF rentable against 6,844 SF gross. All building-level figures, including price per square foot, use the 6,844 SF gross area, which is why the building-level price per square foot differs from any unit-level calculation."
         },
         {
           "id": "disclosure-7",
@@ -1621,7 +1630,7 @@
         "property_details": {
           "physical_narrative": [
             "The building is a two-story wood-frame structure of 6,844 gross SF built in 1990, sitting on a 50 by 135 foot lot of 6,892 SF zoned BUR4. The footprint runs the depth of the parcel with the narrow elevation addressing N Naomi Street, and residential floors sit above gated parking at grade. County records show the property in tax rate area 2-530 with no flood hazard exposure: FEMA Zone X, an area of minimal flood hazard.",
-            "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Published unit areas for the one-bedroom plans run from 625 to 700 SF. No published area is available for the two-bedroom or three-bedroom plans, so those are left blank here rather than estimated.",
+            "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Unit sizes are approximate: roughly 675 SF for the one-bedroom plans, 900 SF for the two-bedroom plans and 1,200 SF for the three-bedroom. The county publishes gross building area only, so these are broker estimates and are labelled as approximate throughout. They total 6,600 SF rentable against 6,844 SF gross. Price per square foot on this analysis uses the 6,844 SF gross figure.",
             "The condition of the vacant units is the reason the lease-up assumption in this analysis is a reasonable one rather than a hopeful one. These are units that can be shown and leased in their current state, not units that need a renovation budget before they produce income. A buyer should still verify condition, systems and any deferred maintenance through inspection."
           ]
         },
@@ -1653,7 +1662,7 @@
         "financial_analysis": {
           "valuation_narrative": [
             "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
             "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
           ],
           "disclosures": [
@@ -1662,7 +1671,7 @@
             "Insurance is carried at the LAAA underwriting allowance of $8,444, calculated as eight units at $200 plus 6,844 gross SF at $1.00 per SF. Ownership's actual 2025 premium is $6,939. The allowance is used so a buyer is underwritten to a market replacement policy rather than to an incumbent's rate.",
             "A management fee at 4.0% of effective gross income and replacement reserves at $250 per unit per year are added to ownership's reported costs. Ownership's expense schedule carries neither line, so together these represent $10,629 of annual cost a buyer will incur that the seller does not currently report.",
             "Five units carry no rent on ownership's rent roll and enter scheduled income at asking rents of $2,000, $2,700 and $3,200. This accounts for $151,200 of the $222,396 current scheduled gross rent. Stated current cap rate and gross rent multiplier are calculated on that basis.",
-            "Per-unit square footage is published for three one-bedroom units only, at 625, 650 and 700 SF. No per-unit area is available for the two-bedroom or three-bedroom plans, so those rows are left blank rather than estimated. Building-level figures use the 6,844 SF assessor gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
+            "Per-unit square footage is approximate. The county publishes gross building area only, so the 675, 900 and 1,200 SF unit sizes shown are broker estimates and are labelled as approximations wherever they appear. They total 6,600 SF rentable against 6,844 SF gross. All building-level figures, including price per square foot, use the 6,844 SF gross area, which is why the building-level price per square foot differs from any unit-level calculation.",
             "The City of Burbank has no rent stabilization ordinance. Rent increases are governed by AB 1482 at the lower of 5% plus CPI or 10% through January 1, 2030, and Burbank's Tenant Protection Ordinance, effective August 31, 2024 and amended March 11, 2025, applies just-cause, relocation and anti-harassment rules to covered units. On October 28, 2025 the City Council directed staff to draft a 4% soft cap on rent increases; that ordinance has not been adopted as of this date, and the drafted version would reach buildings with certificates of occupancy before February 2, 1995.",
             "This is a broker's opinion of value prepared for the owner, not an appraisal. It relies on public records, ownership-provided documents and published asking rents, none of which have been independently audited. Comparable income for all four sales is as published by the 2001-2005 Grismer Avenue listing brokerage and has not been independently audited. Nine recorded-transfer-tax sales screened within 1.75 miles were excluded from this analysis as stale and income-free. A buyer should verify unit count, condition, systems, parking configuration, permits and all income and expense figures through inspection and diligence."
           ]
@@ -1860,7 +1869,7 @@
           "support_refs": [
             "deal:unit_count",
             "deal:building_sf",
-            "sources:src-assessor"
+            "sources:src-title"
           ],
           "framed_as": null,
           "text": "Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans"
@@ -1949,7 +1958,7 @@
           "id": "physical-1",
           "claim_type": "verified_fact",
           "support_refs": [
-            "sources:src-assessor",
+            "sources:src-title",
             "deal:building_sf",
             "deal:lot"
           ],
@@ -1963,7 +1972,7 @@
             "sources:src-listing-portal"
           ],
           "framed_as": null,
-          "text": "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Published unit areas for the one-bedroom plans run from 625 to 700 SF. No published area is available for the two-bedroom or three-bedroom plans, so those are left blank here rather than estimated."
+          "text": "Interior photography of the vacant units shows wood-look plank flooring throughout the living areas, recessed lighting, refreshed kitchens with full-height cabinetry and updated tub and shower surrounds in the baths. Unit sizes are approximate: roughly 675 SF for the one-bedroom plans, 900 SF for the two-bedroom plans and 1,200 SF for the three-bedroom. The county publishes gross building area only, so these are broker estimates and are labelled as approximate throughout. They total 6,600 SF rentable against 6,844 SF gross. Price per square foot on this analysis uses the 6,844 SF gross figure."
         },
         {
           "id": "physical-3",
@@ -2101,7 +2110,7 @@
             "pricing:decision"
           ],
           "framed_as": null,
-          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
+          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
         },
         {
           "id": "valuation-3",
@@ -2171,7 +2180,7 @@
             "sources:src-listing-portal"
           ],
           "framed_as": null,
-          "text": "Per-unit square footage is published for three one-bedroom units only, at 625, 650 and 700 SF. No per-unit area is available for the two-bedroom or three-bedroom plans, so those rows are left blank rather than estimated. Building-level figures use the 6,844 SF assessor gross area, which is why the building-level price per square foot differs from any unit-level calculation."
+          "text": "Per-unit square footage is approximate. The county publishes gross building area only, so the 675, 900 and 1,200 SF unit sizes shown are broker estimates and are labelled as approximations wherever they appear. They total 6,600 SF rentable against 6,844 SF gross. All building-level figures, including price per square foot, use the 6,844 SF gross area, which is why the building-level price per square foot differs from any unit-level calculation."
         },
         {
           "id": "disclosure-7",
@@ -2439,29 +2448,29 @@
   "approval_binding": {
     "deal_id": "2500-naomi",
     "domains": {
-      "identity": "31156077756523142259f7ad5a4388049fd9ac095dc27d5df97ddf5be807fccc",
-      "financial_inputs": "894b0465c9d50bf637ecaa93577739137d4038f1bbfd896f6de94381adc8d1aa",
+      "identity": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0",
+      "financial_inputs": "f365cc609b0d2998132ba150a35715d0e44c4301163e6f9c88ab50291c2cc0ea",
       "pricing_decision": "fcf90a70de0f53c018dda7ff960dd485ed38ae0ab4f97ea1296fd0da02f84f23",
-      "sale_comps": "4faf56c8d8ea3161241719729706c763e6a7a210f37e60e33ac3d136a9b4e6b5",
+      "sale_comps": "416ffb8871d4b815d3a15e8674bba92c28c2078bfad6cb69c4938326638d9d79",
       "rent_comps": "d7b9456ede3411950605bb5bad56b5afc722253578fe94eb2828e751c2ae64df",
-      "copy": "47e7e48df5871fa1389f314a12658083f2320db135cf8001c983416b07803bd8",
+      "copy": "3a21bdaedbb57f0f7fcef552ab90436adece234409ada2f5bea86887310f5fa9",
       "media_selection": "644c79d6f44623d7c1803ddadaa3727f2c8176148402b2f1c1e83a423a589da4",
       "regulatory_conclusions": "cefd4995577d7d60092d17ae6cebe05c2d2c7bcbbdd6ce004dda345ef43249c2"
     },
     "presentation_hashes": {
-      "identity": "7d8c5c4b6285a1abd52c2e8aef41e30d889eb72294535e7fef29428363daec74",
-      "financial_inputs": "05ee2f306f94177138c8e10b112789e3624d29e8aa319f141a3480d45cbf4e06",
+      "identity": "1a8009564202d27c569626ef897d95a59488d65363eafb7f288eff3e1f410880",
+      "financial_inputs": "419e09dcd4bdd4f53fc3a584ec2328c1f532c27bd777aa9676bf74301ed8b7e6",
       "pricing_decision": "e5f90e66f87526933e12cec7584b333eb389cdb356e70eb2066253f70882a4c5",
-      "sale_comps": "13be2f1da51368dc7e75682cf1241f4c6fc76c5c5bdab1a159ffae86924ad883",
+      "sale_comps": "fa79eba7c1f3a8fd26e0bfbdaa0f8bd0f21773b2dfa28cf8e6e9165d128a004f",
       "rent_comps": "dd0632ee55a2d26e5b0a293a891bab7a5222bc8945c1c77f02060f2492c85ac5",
-      "copy": "4a5fd2cd2ab61379bf9a54188eaf5e007be8a47e7ed8999d98c9004d7acc20f9",
+      "copy": "29dc116d57caca842e72d0b9e1d345eff4e2e1a7e2dcfe934bda9b9c6284e64d",
       "media_selection": "2ef924065b5748cdd1b0b194999792933208bacf4c9f2758dc6b04fff07ed978",
       "regulatory_conclusions": "110872e297fb2a9d087aafd6542e9fea43cdb80f8a08b2afc90de0d5b2ee9047"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-08-26T23:49:58+00:00",
+    "generated": "2026-08-27T01:08:15+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
