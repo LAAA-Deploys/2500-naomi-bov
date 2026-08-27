@@ -3,8 +3,8 @@
   "scope": "deal",
   "deal_id": "2500-naomi",
   "portfolio_id": null,
-  "package_version": "v8",
-  "approved_at": "2026-08-27T20:55:21.057158+00:00",
+  "package_version": "v9",
+  "approved_at": "2026-08-27T21:03:44.225669+00:00",
   "approver": "Filip Niculete",
   "price": {
     "value": 2750000
@@ -18,7 +18,7 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "13c1661d67647a40c0d00645485d003f3e3133c5adc3f593445974caad5bf5ce"
+      "content_sha256": "10259f2774793409822922e0a2ff1c1c34c83f17b19f07a5d33bce3d666190a5"
     },
     "financial_inputs": {
       "content_sha256": "f7b6275dde7a462d90ada9742af6a6bf563201a19e01bb8a752da0740d6ac68a"
