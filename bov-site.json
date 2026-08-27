@@ -522,8 +522,8 @@
         "The right buyer here is not the one paying the highest headline price. It is the one who can close without financing contingent on in-place income and can lease five units quickly, because that buyer is the one whose offer survives to closing. Positioning should qualify on capital and lease-up capability early rather than discover it in escrow."
       ],
       "rent_narrative": [
-        "Active asking rents in 91504 cluster tightly. One-bedroom units run $1,875 to $2,100, with the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asking $1,995. Two-bedroom, two-bath units run $2,695 to $2,850. The analysis underwrites $2,000 and $2,700 respectively, inside both ranges rather than at the top of either.",
-        "One input deserves to be flagged rather than smoothed over. No three-bedroom, two-bath apartment rent is published anywhere in 91504, so the $3,200 underwritten for unit 104 is bracketed between the two-bedroom apartment comparables and a detached three-bedroom house asking $5,300. That single unit carries 16.6% of scheduled gross rent, and it is the least-supported number in this analysis."
+        "The comparables are grouped by plan so each underwritten rent answers to its own evidence. Six one-bedroom comparables run $1,875 to $2,100 and average $1,944; the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asks $1,995. The analysis underwrites $2,000, just above that average and inside the range. Six two-bedroom, two-bath comparables run $2,695 to $2,861 and average $2,783, four of them verified in the Marcus & Millichap offering memorandum for 2001-2005 Grismer Avenue, whose own market figure is $2,750. The analysis underwrites $2,700, below that average.",
+        "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
       ],
       "valuation_narrative": [
         "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
@@ -670,26 +670,6 @@
           "map_ref": 4
         },
         {
-          "address": "Castillian Apartments, 2021 Grismer Ave #26, Burbank",
-          "unit_type": "2 Bed / 2 Bath",
-          "rent": 2695,
-          "square_feet": 922,
-          "square_feet_basis": "labelled_estimate",
-          "distance": 0.757,
-          "image": null,
-          "map_ref": 5
-        },
-        {
-          "address": "2025 Peyton Ave #118, Burbank",
-          "unit_type": "2 Bed / 2 Bath",
-          "rent": 2850,
-          "square_feet": 1000,
-          "square_feet_basis": "labelled_estimate",
-          "distance": 0.529,
-          "image": null,
-          "map_ref": 6
-        },
-        {
           "address": "2421 N Brighton St, Burbank",
           "unit_type": "1 Bed / 1 Bath",
           "rent": 2100,
@@ -697,7 +677,7 @@
           "square_feet_basis": "omitted",
           "distance": 0.233,
           "image": null,
-          "map_ref": 7
+          "map_ref": 5
         },
         {
           "address": "1721 Scott Rd, Burbank",
@@ -707,17 +687,107 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.915,
           "image": null,
+          "map_ref": 6
+        },
+        {
+          "address": "Castillian Apartments, 2021 Grismer Ave #26, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2695,
+          "square_feet": 922,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 0.757,
+          "image": null,
+          "map_ref": 7
+        },
+        {
+          "address": "2025 Peyton Ave #118, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2850,
+          "square_feet": 1000,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 0.529,
+          "image": null,
           "map_ref": 8
         },
         {
-          "address": "3001 Jolley Dr, Burbank",
-          "unit_type": "3 Bed / 2 Bath",
-          "rent": 5300,
-          "square_feet": 1120,
-          "square_feet_basis": "verified",
-          "distance": 0.844,
+          "address": "1731 Rogers Pl, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2775,
+          "square_feet": 950,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 0.807,
           "image": null,
           "map_ref": 9
+        },
+        {
+          "address": "1806 Grismer Ave, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2861,
+          "square_feet": 950,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 0.872,
+          "image": null,
+          "map_ref": 10
+        },
+        {
+          "address": "333 Andover Dr, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2723,
+          "square_feet": 1020,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 1.052,
+          "image": null,
+          "map_ref": 11
+        },
+        {
+          "address": "476 E Cypress Ave, Burbank",
+          "unit_type": "2 Bed / 2 Bath",
+          "rent": 2795,
+          "square_feet": 1000,
+          "square_feet_basis": "labelled_estimate",
+          "distance": 1.851,
+          "image": null,
+          "map_ref": 12
+        },
+        {
+          "address": "509-519 E San Jose Ave, Burbank",
+          "unit_type": "3 Bed / 2 Bath",
+          "rent": 3295,
+          "square_feet": null,
+          "square_feet_basis": "omitted",
+          "distance": 1.889,
+          "image": null,
+          "map_ref": 13
+        },
+        {
+          "address": "360 N Hollywood Way, Burbank",
+          "unit_type": "3 Bed / 2 Bath",
+          "rent": 3495,
+          "square_feet": null,
+          "square_feet_basis": "omitted",
+          "distance": 2.792,
+          "image": null,
+          "map_ref": 14
+        },
+        {
+          "address": "301 E Verdugo Ave, Burbank",
+          "unit_type": "3 Bed / 2 Bath",
+          "rent": 3550,
+          "square_feet": null,
+          "square_feet_basis": "omitted",
+          "distance": 2.347,
+          "image": null,
+          "map_ref": 15
+        },
+        {
+          "address": "600 E Olive Ave, Burbank",
+          "unit_type": "3 Bed / 2 Bath",
+          "rent": 3594,
+          "square_feet": null,
+          "square_feet_basis": "omitted",
+          "distance": 2.257,
+          "image": null,
+          "map_ref": 16
         }
       ],
       "sale_comps": [
@@ -886,7 +956,7 @@
         ],
         "closings_map": {
           "source": "https://www.laaa.com/track-record",
-          "pulled": "2026-08-26T23:48:12+00:00",
+          "pulled": "2026-08-27T18:19:33+00:00",
           "basis": {
             "type": "submarket",
             "label": "Burbank"
@@ -1015,8 +1085,8 @@
         },
         "rent_comps": {
           "narrative": [
-            "Active asking rents in 91504 cluster tightly. One-bedroom units run $1,875 to $2,100, with the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asking $1,995. Two-bedroom, two-bath units run $2,695 to $2,850. The analysis underwrites $2,000 and $2,700 respectively, inside both ranges rather than at the top of either.",
-            "One input deserves to be flagged rather than smoothed over. No three-bedroom, two-bath apartment rent is published anywhere in 91504, so the $3,200 underwritten for unit 104 is bracketed between the two-bedroom apartment comparables and a detached three-bedroom house asking $5,300. That single unit carries 16.6% of scheduled gross rent, and it is the least-supported number in this analysis."
+            "The comparables are grouped by plan so each underwritten rent answers to its own evidence. Six one-bedroom comparables run $1,875 to $2,100 and average $1,944; the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asks $1,995. The analysis underwrites $2,000, just above that average and inside the range. Six two-bedroom, two-bath comparables run $2,695 to $2,861 and average $2,783, four of them verified in the Marcus & Millichap offering memorandum for 2001-2005 Grismer Avenue, whose own market figure is $2,750. The analysis underwrites $2,700, below that average.",
+            "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
           ]
         },
         "financial_analysis": {
@@ -1439,18 +1509,18 @@
             "comps-rent:rent-5"
           ],
           "framed_as": null,
-          "text": "Active asking rents in 91504 cluster tightly. One-bedroom units run $1,875 to $2,100, with the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asking $1,995. Two-bedroom, two-bath units run $2,695 to $2,850. The analysis underwrites $2,000 and $2,700 respectively, inside both ranges rather than at the top of either."
+          "text": "The comparables are grouped by plan so each underwritten rent answers to its own evidence. Six one-bedroom comparables run $1,875 to $2,100 and average $1,944; the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asks $1,995. The analysis underwrites $2,000, just above that average and inside the range. Six two-bedroom, two-bath comparables run $2,695 to $2,861 and average $2,783, four of them verified in the Marcus & Millichap offering memorandum for 2001-2005 Grismer Avenue, whose own market figure is $2,750. The analysis underwrites $2,700, below that average."
         },
         {
           "id": "rent-narrative-2",
           "claim_type": "broker_opinion",
           "support_refs": [
             "comps-rent:conclusions",
-            "comps-rent:rent-9",
+            "comps-rent:rent-14",
             "financials:t12"
           ],
           "framed_as": "disclosure on the weakest rent input",
-          "text": "One input deserves to be flagged rather than smoothed over. No three-bedroom, two-bath apartment rent is published anywhere in 91504, so the $3,200 underwritten for unit 104 is bracketed between the two-bedroom apartment comparables and a detached three-bedroom house asking $5,300. That single unit carries 16.6% of scheduled gross rent, and it is the least-supported number in this analysis."
+          "text": "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
         },
         {
           "id": "valuation-1",
@@ -1655,8 +1725,8 @@
         },
         "rent_comps": {
           "narrative": [
-            "Active asking rents in 91504 cluster tightly. One-bedroom units run $1,875 to $2,100, with the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asking $1,995. Two-bedroom, two-bath units run $2,695 to $2,850. The analysis underwrites $2,000 and $2,700 respectively, inside both ranges rather than at the top of either.",
-            "One input deserves to be flagged rather than smoothed over. No three-bedroom, two-bath apartment rent is published anywhere in 91504, so the $3,200 underwritten for unit 104 is bracketed between the two-bedroom apartment comparables and a detached three-bedroom house asking $5,300. That single unit carries 16.6% of scheduled gross rent, and it is the least-supported number in this analysis."
+            "The comparables are grouped by plan so each underwritten rent answers to its own evidence. Six one-bedroom comparables run $1,875 to $2,100 and average $1,944; the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asks $1,995. The analysis underwrites $2,000, just above that average and inside the range. Six two-bedroom, two-bath comparables run $2,695 to $2,861 and average $2,783, four of them verified in the Marcus & Millichap offering memorandum for 2001-2005 Grismer Avenue, whose own market figure is $2,750. The analysis underwrites $2,700, below that average.",
+            "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
           ]
         },
         "financial_analysis": {
@@ -2079,18 +2149,18 @@
             "comps-rent:rent-5"
           ],
           "framed_as": null,
-          "text": "Active asking rents in 91504 cluster tightly. One-bedroom units run $1,875 to $2,100, with the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asking $1,995. Two-bedroom, two-bath units run $2,695 to $2,850. The analysis underwrites $2,000 and $2,700 respectively, inside both ranges rather than at the top of either."
+          "text": "The comparables are grouped by plan so each underwritten rent answers to its own evidence. Six one-bedroom comparables run $1,875 to $2,100 and average $1,944; the closest match to the subject's plan, 2253 N Niagara Street in a 1988 building at approximately 700 SF, asks $1,995. The analysis underwrites $2,000, just above that average and inside the range. Six two-bedroom, two-bath comparables run $2,695 to $2,861 and average $2,783, four of them verified in the Marcus & Millichap offering memorandum for 2001-2005 Grismer Avenue, whose own market figure is $2,750. The analysis underwrites $2,700, below that average."
         },
         {
           "id": "rent-narrative-2",
           "claim_type": "broker_opinion",
           "support_refs": [
             "comps-rent:conclusions",
-            "comps-rent:rent-9",
+            "comps-rent:rent-14",
             "financials:t12"
           ],
           "framed_as": "disclosure on the weakest rent input",
-          "text": "One input deserves to be flagged rather than smoothed over. No three-bedroom, two-bath apartment rent is published anywhere in 91504, so the $3,200 underwritten for unit 104 is bracketed between the two-bedroom apartment comparables and a detached three-bedroom house asking $5,300. That single unit carries 16.6% of scheduled gross rent, and it is the least-supported number in this analysis."
+          "text": "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
         },
         {
           "id": "valuation-1",
@@ -2449,11 +2519,11 @@
     "deal_id": "2500-naomi",
     "domains": {
       "identity": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0",
-      "financial_inputs": "f365cc609b0d2998132ba150a35715d0e44c4301163e6f9c88ab50291c2cc0ea",
-      "pricing_decision": "fcf90a70de0f53c018dda7ff960dd485ed38ae0ab4f97ea1296fd0da02f84f23",
+      "financial_inputs": "a52a266acb5f92d583ed6c3534d0822ab895e50fe697931cf1a02447f3a95f35",
+      "pricing_decision": "375f8a0d853761ad0346f67aaeae92ffd131d312dd1c1beebe8a2fe5dccbf475",
       "sale_comps": "416ffb8871d4b815d3a15e8674bba92c28c2078bfad6cb69c4938326638d9d79",
-      "rent_comps": "d7b9456ede3411950605bb5bad56b5afc722253578fe94eb2828e751c2ae64df",
-      "copy": "3a21bdaedbb57f0f7fcef552ab90436adece234409ada2f5bea86887310f5fa9",
+      "rent_comps": "b3509433902641d3273d3b1284c82aadf3810162174e7e0617aa67fc078c990b",
+      "copy": "1e832ec56741d18ad09f39b48c80a3f4d687caf92cbe36600589ed6387ec4307",
       "media_selection": "644c79d6f44623d7c1803ddadaa3727f2c8176148402b2f1c1e83a423a589da4",
       "regulatory_conclusions": "cefd4995577d7d60092d17ae6cebe05c2d2c7bcbbdd6ce004dda345ef43249c2"
     },
@@ -2462,15 +2532,15 @@
       "financial_inputs": "419e09dcd4bdd4f53fc3a584ec2328c1f532c27bd777aa9676bf74301ed8b7e6",
       "pricing_decision": "e5f90e66f87526933e12cec7584b333eb389cdb356e70eb2066253f70882a4c5",
       "sale_comps": "fa79eba7c1f3a8fd26e0bfbdaa0f8bd0f21773b2dfa28cf8e6e9165d128a004f",
-      "rent_comps": "dd0632ee55a2d26e5b0a293a891bab7a5222bc8945c1c77f02060f2492c85ac5",
-      "copy": "29dc116d57caca842e72d0b9e1d345eff4e2e1a7e2dcfe934bda9b9c6284e64d",
+      "rent_comps": "c615affe11b790b04f76404399366ab47738bb09cfce2668ccbb0238d87479ea",
+      "copy": "1ba21bfbca632cc48cf73f50ba70ee83bc4ea76de7eeeabe74b81ee1a0d26650",
       "media_selection": "2ef924065b5748cdd1b0b194999792933208bacf4c9f2758dc6b04fff07ed978",
       "regulatory_conclusions": "110872e297fb2a9d087aafd6542e9fea43cdb80f8a08b2afc90de0d5b2ee9047"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-08-27T01:08:15+00:00",
+    "generated": "2026-08-27T18:34:48+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
