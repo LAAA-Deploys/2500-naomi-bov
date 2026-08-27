@@ -1091,10 +1091,55 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         for comp in rent["rows"]
         if comp["quality_rating"] != "exclude"
     ]
-    _assign_map_refs(rent_rows, [
-        comp for comp in rent["rows"] if comp["quality_rating"] != "exclude"], "rent")
+    rent_included = [comp for comp in rent["rows"] if comp["quality_rating"] != "exclude"]
+    _assign_map_refs(rent_rows, rent_included, "rent")
     _assign_map_refs(sale_rows, sale_sources, "sold")
     _assign_map_refs(active_rows, active_sources, "active")
+
+    # Tap-to-explore overlay pins (Filip Niculete's variance, 2026-08-27, first
+    # used on 2500 N Naomi). The overlay re-plots the SAME distinct locations
+    # the certified static renders carry, numbered identically, because both
+    # derive from the comp rows whose pin order _assign_map_refs just verified
+    # against map-manifest.json. The subject coordinate is the manifest's
+    # approved rooftop pin, never a re-geocode. Emitted only when the deal
+    # declares presentation.interactive_maps, so the design-lock default
+    # (static renders only) is unchanged for every other deal.
+    def _overlay_points(rows, sources):
+        points, seen = [], set()
+        for row, source in zip(rows, sources):
+            n = row.get("map_ref")
+            pin = source.get("pin") or {}
+            if n is None or n in seen or pin.get("latitude") is None:
+                continue
+            seen.add(n)
+            points.append({"label": str(n), "lat": pin["latitude"],
+                           "lng": pin["longitude"], "title": row["address"]})
+        return points
+
+    interactive = bool(presentation.get("interactive_maps"))
+    map_pins = {}
+    if interactive:
+        manifest_path = workspace.site_repo / "map-manifest.json"
+        subject_pin = None
+        if manifest_path.is_file():
+            for entry in json.loads(manifest_path.read_text(encoding="utf-8"))["entries"]:
+                if entry.get("property") == deal["slug"] and entry.get("category") == "subject":
+                    subject_pin = {"label": "S", "lat": entry["lat"], "lng": entry["lng"],
+                                   "title": deal["primary_address"], "subject": True}
+                    break
+        if subject_pin is None:
+            raise PayloadError(
+                "presentation.interactive_maps is set but map-manifest.json has no "
+                "approved subject pin for this property; the overlay would have to "
+                "re-geocode, which is forbidden. Author the manifest first or drop "
+                "the flag.")
+        map_pins = {"subject": [subject_pin]}
+        for key, rows, sources in (("sale", sale_rows, sale_sources),
+                                   ("rent", rent_rows, rent_included),
+                                   ("active", active_rows, active_sources)):
+            points = _overlay_points(rows, sources)
+            if points:
+                map_pins[key] = points + [subject_pin]
 
     gallery = [
         {
@@ -1201,6 +1246,8 @@ def _build_payload(workspace: DealWorkspace) -> dict:
         "sale_comps": sale_rows,
         "active_comps": active_rows,
         "map_points": [],
+        "interactive_maps": interactive,
+        "map_pins": map_pins,
         "track_record": {},
     }
     _renumber_notes_in_reading_order(property_payload)

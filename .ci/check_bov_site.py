@@ -100,6 +100,22 @@ BANNED_SOURCES = [
     (r'geocoding\.geo\.census\.gov', "Census geocoder"),
     (r'nominatim', "Nominatim"),
 ]
+
+#: Tap-to-explore variance (Filip Niculete, 2026-08-27, Hard Rule 15; first
+#: used on 2500 N Naomi). A deal that declares presentation.interactive_maps
+#: in its spine ships the locked static renders PLUS a lazy fullscreen overlay,
+#: and for that deal ONLY these exact pinned Leaflet 1.9.4 files (integrity
+#: hashes computed from the actual dist bytes) and the OSM raster tile endpoint
+#: are permitted. Any other CDN, any other version, any un-pinned reference,
+#: and every geocoder stays banned, and deals without the flag are unchanged.
+INTERACTIVE_MAP_ALLOWED = {
+    "js": ("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+           "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="),
+    "css": ("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+            "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="),
+}
+INTERACTIVE_EXEMPT_PATTERNS = {r'leaflet', r'openstreetmap|tile\.osm'}
+INTERACTIVE_CDN_PATTERN = r'unpkg\.com|cdnjs\.|jsdelivr'
 #: A build older than this is not "current" for a client-facing page. Seven
 #: days (Glen, 2026-08-07): the original 24-hour window forced a re-approval of
 #: an unchanged two-line diff when a 10-minute outage pushed a build past the
@@ -479,11 +495,35 @@ def main(site):
         if "data:image" in html:
             fail(f"{rel}: inlines a base64 image. External files in images/ only.")
 
-        # 6/7. banned map stacks and geocoders
+        # 6/7. banned map stacks and geocoders. A deal that declares
+        # presentation.interactive_maps gets the narrow pinned-Leaflet
+        # exemption documented at INTERACTIVE_MAP_ALLOWED; everything else in
+        # the banned list still fails, for that deal too.
+        interactive_ok = any(
+            p.get("interactive_maps") for p in site_data.get("properties") or [])
         for pat, what in BANNED_SOURCES:
+            if interactive_ok and pat in INTERACTIVE_EXEMPT_PATTERNS:
+                continue
+            if interactive_ok and pat == INTERACTIVE_CDN_PATTERN:
+                allowed_urls = {url for url, _ in INTERACTIVE_MAP_ALLOWED.values()}
+                for m in re.finditer(r'https?://unpkg\.com[^\'"\s)<>]*', html, re.I):
+                    if m.group(0) not in allowed_urls:
+                        fail(f"{rel}: references {m.group(0)}, which is not one of the "
+                             f"pinned Leaflet 1.9.4 files the interactive-maps "
+                             f"variance allows.")
+                if re.search(r'cdnjs\.|jsdelivr', html, re.I):
+                    fail(f"{rel}: references a third-party CDN other than the pinned "
+                         f"Leaflet files. The interactive-maps variance allows only "
+                         f"unpkg.com/leaflet@1.9.4.")
+                continue
             if re.search(pat, html, re.I):
                 fail(f"{rel}: references {what}. Maps are pre-rendered Google Static Maps "
                      f"from laaa-geo ROOFTOP coordinates.")
+        if interactive_ok:
+            for kind, (url, sri) in INTERACTIVE_MAP_ALLOWED.items():
+                if url in html and sri not in html:
+                    fail(f"{rel}: the Leaflet {kind} reference is not integrity-pinned; "
+                         f"{sri} must accompany {url}.")
 
         # 8. no API key in client HTML
         if re.search(r'AIza[0-9A-Za-z_\-]{35}', html):

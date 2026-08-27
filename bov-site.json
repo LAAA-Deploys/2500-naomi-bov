@@ -209,20 +209,20 @@
       "renovated_year": null,
       "parking": "Gated on-site parking at grade beneath the building; verify configuration and count during inspection",
       "hero": "images/streetview-2500-naomi-west-elevation.jpg",
-      "price": 2875000,
-      "price_per_unit": 359375.0,
-      "price_per_sf": 420.0759789596727,
+      "price": 2750000,
+      "price_per_unit": 343750.0,
+      "price_per_sf": 401.81180596142605,
       "value_range": "$2,750,000 to $2,975,000",
       "opinion_of_value": [
         {
           "label": "Suggested list price",
-          "price": 2875000,
-          "price_per_unit": 359375.0,
-          "price_per_sf": 420.0759789596727,
-          "grm_current": 12.92739078040972,
-          "grm_market": 12.41364421416235,
-          "cap_current": 5.0649043478260865,
-          "cap_market": 5.363026086956522
+          "price": 2750000,
+          "price_per_unit": 343750.0,
+          "price_per_sf": 401.81180596142605,
+          "grm_current": 12.365330311696253,
+          "grm_market": 11.87392055267703,
+          "cap_current": 5.348909090909091,
+          "cap_market": 5.660581818181818
         },
         {
           "label": "Range top",
@@ -231,8 +231,8 @@
           "price_per_sf": 434.68731735827004,
           "grm_current": 13.377039155380492,
           "grm_market": 12.845423143350605,
-          "cap_current": 4.854880672268909,
-          "cap_market": 5.142981512605043
+          "cap_current": 4.854876470588235,
+          "cap_market": 5.14297731092437
         },
         {
           "label": "Midpoint",
@@ -241,8 +241,8 @@
           "price_per_sf": 418.24956165984804,
           "grm_current": 12.871184733538373,
           "grm_market": 12.359671848013816,
-          "cap_current": 5.0921890829694325,
-          "cap_market": 5.391612663755459
+          "cap_current": 5.092184716157205,
+          "cap_market": 5.3916082969432315
         },
         {
           "label": "Range bottom",
@@ -251,8 +251,8 @@
           "price_per_sf": 401.81180596142605,
           "grm_current": 12.365330311696253,
           "grm_market": 11.87392055267703,
-          "cap_current": 5.348913636363636,
-          "cap_market": 5.660586363636363
+          "cap_current": 5.348909090909091,
+          "cap_market": 5.660581818181818
         }
       ],
       "scheduled_rent": [
@@ -267,23 +267,23 @@
         0.0,
         0.0
       ],
-      "grm_current": 12.92739078040972,
-      "grm_market": 12.41364421416235,
-      "cap_current": 5.0649043478260865,
-      "cap_market": 5.363026086956522,
+      "grm_current": 12.365330311696253,
+      "grm_market": 11.87392055267703,
+      "cap_current": 5.348909090909091,
+      "cap_market": 5.660581818181818,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 145616,
-      "noi_market": 154187,
+      "noi_current": 147095,
+      "noi_market": 155666,
       "tax_rate": 1.1833,
       "tax_anchor": {
-        "ad_valorem": 34020,
+        "ad_valorem": 32541,
         "flat_assessments": 0,
         "expense_line": "Real Estate Taxes"
       },
-      "expense_total": 70108,
-      "expense_per_unit": 8763.5,
-      "expense_per_sf": 10.243717124488603,
+      "expense_total": 68629,
+      "expense_per_unit": 8578.625,
+      "expense_per_sf": 10.027615429573348,
       "unit_mix": [
         {
           "count": 4,
@@ -341,47 +341,47 @@
           224652
         ],
         "expenses": [
-          70108,
-          70465
+          68629,
+          68986
         ],
         "expense_ratio": [
-          32.49893382284771,
-          31.366290974484983
+          31.81333555839869,
+          30.707939390702066
         ],
         "noi": [
-          145616,
-          154187
+          147095,
+          155666
         ],
         "loan_payments": [
           0.0,
           0.0
         ],
         "pretax_cf": [
-          145616.0,
-          154187.0
+          147095.0,
+          155666.0
         ],
         "pretax_cf_pct": [
-          5.0649043478260865,
-          5.363026086956522
+          5.348909090909091,
+          5.660581818181818
         ],
         "principal_reduction": [
           0.0,
           0.0
         ],
         "total_return": [
-          145616.0,
-          154187.0
+          147095.0,
+          155666.0
         ],
         "total_return_pct": [
-          5.0649043478260865,
-          5.363026086956522
+          5.348909090909091,
+          5.660581818181818
         ]
       },
       "expense_lines": [
         [
           "Real Estate Taxes",
-          34020,
-          34020,
+          32541,
+          32541,
           "4"
         ],
         [
@@ -436,7 +436,7 @@
       "expense_notes": {
         "4": [
           "Real Estate Taxes",
-          "Underwritten at reassessment on the recommended list price using the 1.1833% effective rate derived from the subject's own 2025 tax bill, $18,197 against $1,537,790 of assessed value, in tax rate area 2-530. Ownership's current taxes reflect a 2004 purchase basis and will not survive a sale."
+          "Underwritten at reassessment on the recommended list price of $2,750,000 using the 1.1833% effective rate derived from the subject's own 2025 tax bill, $18,197 against $1,537,790 of assessed value, in tax rate area 2-530, or $32,541 per year. Ownership's current taxes reflect a 2004 purchase basis and will not survive a sale."
         ],
         "5": [
           "Insurance",
@@ -494,14 +494,14 @@
         "Five of eight units convey vacant: 62.5% of the building resets at market with no inherited rent basis",
         "Built 1990, the newest building in the Burbank comparable set",
         "No City of Burbank rent stabilization ordinance; rent increases governed by AB 1482",
-        "5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents",
+        "5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents",
         "Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans",
         "Vacant units show updated interiors: wood-look flooring, recessed lighting and refreshed kitchens and baths"
       ],
       "overview": [
         "2500 N Naomi Street is an eight-unit apartment building constructed in 1990 on a 6,892 SF lot in north Burbank, two stories of residential over gated at-grade parking. The unit mix is four one-bedroom, one-bath plans, three two-bedroom, two-bath plans and a single three-bedroom, two-bath plan across 6,844 gross SF. Every unit has at least two bathrooms except the one-bedrooms, a configuration that rents better and turns faster than the one-bath stock that dominates buildings of this size in the submarket.",
         "What separates this offering from the rest of the Burbank market is the delivery. Units 101, 102, 104, 201 and 202 are vacant or contracted to be delivered vacant at close. Only three units convey occupied, at $1,738, $1,795 and $2,400 per month, each roughly 10% to 13% below the current asking rents in the immediate area. A buyer is therefore setting the rent basis on five of eight units rather than inheriting one, and holds near-term upside on the three that remain.",
-        "At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
+        "At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
       ],
       "location_title": "North Burbank, Minutes From the Studios",
       "location_narrative": [
@@ -526,8 +526,8 @@
         "The three-bedroom is now comped directly rather than bracketed. Four three-bedroom apartment comparables in Burbank run $3,295 to $3,594 and average $3,484, the closest being a fourteen-unit 1963 building on E San Jose Avenue at $3,295 and a thirty-seven-unit 1990 building on N Hollywood Way, the same construction year as the subject, at $3,495. Two of the four advertise one month free, which on a twelve-month lease puts their net effective rents at roughly $3,204 and $3,254. The analysis underwrites $3,200 for unit 104, below every asking rent in the set and at the net effective level of the two carrying concessions."
       ],
       "valuation_narrative": [
-        "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-        "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+        "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return.",
+        "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
         "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
       ],
       "strategy": [
@@ -537,7 +537,7 @@
         },
         {
           "title": "Price Against Per Square Foot, Not Per Unit",
-          "copy": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
+          "copy": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
         },
         {
           "title": "Sell the Regulatory Position Plainly",
@@ -895,15 +895,180 @@
           "restatement": {
             "price": 4500000,
             "label": "Grismer at $4,500,000",
-            "basis": "The third column restates 2001-2005 Grismer Avenue's own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing's fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer's sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject's 5.06% sits on income already at market, because five of eight units convey vacant and reset on day one."
+            "basis": "The third column restates 2001-2005 Grismer Avenue's own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing's fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer's sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject's 5.35% sits on income already at market, because five of eight units convey vacant and reset on day one."
           },
-          "summary": "The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $359,375 per unit and $420.08 per SF at a 5.06% cap and a 12.93 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 6.0% cheaper per unit and 11.0% cheaper per SF, on a half point more going-in yield.",
+          "summary": "The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $343,750 per unit and $401.81 per SF at a 5.35% cap and a 12.37 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 10.0% cheaper per unit and 14.9% cheaper per SF, on eight tenths of a point more going-in yield.",
           "relevance": "Fourteen units in 11,334 SF on an 11,440 SF lot, built 1987, all two-bedroom two-bath. The subject is eight units in 6,844 SF on 6,892 SF, built 1990, with a mix of one, two and three-bedroom plans.",
           "considerations": "Marketed as 100% occupied on the May 2026 rent roll, so a buyer inherits the rent basis on all fourteen units. The subject conveys five of eight units vacant, which is the structural difference between the two offerings.; Marcus & Millichap listing, on market since 2026-06-26. Cap rate and gross rent multiplier are the marketed asking figures, not a closed transaction.",
           "map_ref": 1
         }
       ],
       "map_points": [],
+      "interactive_maps": true,
+      "map_pins": {
+        "subject": [
+          {
+            "label": "S",
+            "lat": 34.197493,
+            "lng": -118.339768,
+            "title": "2500 N Naomi Street, Burbank, CA 91504",
+            "subject": true
+          }
+        ],
+        "sale": [
+          {
+            "label": "1",
+            "lat": 34.184895,
+            "lng": -118.300427,
+            "title": "638 E Tujunga Ave, Burbank"
+          },
+          {
+            "label": "2",
+            "lat": 34.155059,
+            "lng": -118.339899,
+            "title": "215 N Cordova St, Burbank"
+          },
+          {
+            "label": "3",
+            "lat": 34.188262,
+            "lng": -118.309009,
+            "title": "536 E Cypress Ave, Burbank"
+          },
+          {
+            "label": "4",
+            "lat": 34.165656,
+            "lng": -118.312144,
+            "title": "420 W Elmwood Ave, Burbank"
+          },
+          {
+            "label": "S",
+            "lat": 34.197493,
+            "lng": -118.339768,
+            "title": "2500 N Naomi Street, Burbank, CA 91504",
+            "subject": true
+          }
+        ],
+        "rent": [
+          {
+            "label": "1",
+            "lat": 34.193769,
+            "lng": -118.342677,
+            "title": "2253 N Niagara St #B, Burbank"
+          },
+          {
+            "label": "2",
+            "lat": 34.194704,
+            "lng": -118.340869,
+            "title": "2324 N Catalina St #H, Burbank"
+          },
+          {
+            "label": "3",
+            "lat": 34.20013,
+            "lng": -118.337486,
+            "title": "2420 N Buena Vista St #A, Burbank"
+          },
+          {
+            "label": "4",
+            "lat": 34.194665,
+            "lng": -118.342627,
+            "title": "2321 N Niagara St #F, Burbank"
+          },
+          {
+            "label": "5",
+            "lat": 34.200001,
+            "lng": -118.337054,
+            "title": "2421 N Brighton St, Burbank"
+          },
+          {
+            "label": "6",
+            "lat": 34.194349,
+            "lng": -118.324252,
+            "title": "1721 Scott Rd, Burbank"
+          },
+          {
+            "label": "7",
+            "lat": 34.197093,
+            "lng": -118.326558,
+            "title": "Castillian Apartments, 2021 Grismer Ave #26, Burbank"
+          },
+          {
+            "label": "8",
+            "lat": 34.196919,
+            "lng": -118.330563,
+            "title": "2025 Peyton Ave #118, Burbank"
+          },
+          {
+            "label": "9",
+            "lat": 34.192829,
+            "lng": -118.326845,
+            "title": "1731 Rogers Pl, Burbank"
+          },
+          {
+            "label": "10",
+            "lat": 34.194672,
+            "lng": -118.32493,
+            "title": "1806 Grismer Ave, Burbank"
+          },
+          {
+            "label": "11",
+            "lat": 34.193973,
+            "lng": -118.321896,
+            "title": "333 Andover Dr, Burbank"
+          },
+          {
+            "label": "12",
+            "lat": 34.187658,
+            "lng": -118.309713,
+            "title": "476 E Cypress Ave, Burbank"
+          },
+          {
+            "label": "13",
+            "lat": 34.187613,
+            "lng": -118.309017,
+            "title": "509-519 E San Jose Ave, Burbank"
+          },
+          {
+            "label": "14",
+            "lat": 34.157055,
+            "lng": -118.34125,
+            "title": "360 N Hollywood Way, Burbank"
+          },
+          {
+            "label": "15",
+            "lat": 34.180168,
+            "lng": -118.30451,
+            "title": "301 E Verdugo Ave, Burbank"
+          },
+          {
+            "label": "16",
+            "lat": 34.18569,
+            "lng": -118.303034,
+            "title": "600 E Olive Ave, Burbank"
+          },
+          {
+            "label": "S",
+            "lat": 34.197493,
+            "lng": -118.339768,
+            "title": "2500 N Naomi Street, Burbank, CA 91504",
+            "subject": true
+          }
+        ],
+        "active": [
+          {
+            "label": "1",
+            "lat": 34.196614,
+            "lng": -118.326227,
+            "title": "2001-2005 Grismer Ave, Burbank"
+          },
+          {
+            "label": "S",
+            "lat": 34.197493,
+            "lng": -118.339768,
+            "title": "2500 N Naomi Street, Burbank, CA 91504",
+            "subject": true
+          }
+        ]
+      },
       "track_record": {
         "all": {
           "count": 493,
@@ -1025,7 +1190,7 @@
           ],
           "strategy_copy": [
             "Most Los Angeles multifamily offerings ask a buyer to inherit somebody else's rent roll. This one does not. Five of eight units convey vacant, so 62.5% of the building resets at market on day one with no inherited rent basis and no tenancy history to underwrite around. That is the headline, and the campaign should say so in the first line rather than burying it in the rent roll.",
-            "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.",
+            "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.",
             "Burbank has no local rent control, and buyers coming from the City of Los Angeles will assume otherwise. State the AB 1482 position and the Burbank Tenant Protection Ordinance directly in the offering rather than leaving a buyer to discover it, and note the pending soft cap proposal in the same breath. A buyer who learns the regulatory picture from us trusts the rest of the file."
           ],
           "narrative": [
@@ -1037,14 +1202,14 @@
             "Five of eight units convey vacant: 62.5% of the building resets at market with no inherited rent basis",
             "Built 1990, the newest building in the Burbank comparable set",
             "No City of Burbank rent stabilization ordinance; rent increases governed by AB 1482",
-            "5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents",
+            "5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents",
             "Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans",
             "Vacant units show updated interiors: wood-look flooring, recessed lighting and refreshed kitchens and baths"
           ],
           "overview": [
             "2500 N Naomi Street is an eight-unit apartment building constructed in 1990 on a 6,892 SF lot in north Burbank, two stories of residential over gated at-grade parking. The unit mix is four one-bedroom, one-bath plans, three two-bedroom, two-bath plans and a single three-bedroom, two-bath plan across 6,844 gross SF. Every unit has at least two bathrooms except the one-bedrooms, a configuration that rents better and turns faster than the one-bath stock that dominates buildings of this size in the submarket.",
             "What separates this offering from the rest of the Burbank market is the delivery. Units 101, 102, 104, 201 and 202 are vacant or contracted to be delivered vacant at close. Only three units convey occupied, at $1,738, $1,795 and $2,400 per month, each roughly 10% to 13% below the current asking rents in the immediate area. A buyer is therefore setting the rent basis on five of eight units rather than inheriting one, and holds near-term upside on the three that remain.",
-            "At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
+            "At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
           ]
         },
         "location": {
@@ -1091,8 +1256,8 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+            "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return.",
+            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
             "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
           ],
           "disclosures": [
@@ -1233,7 +1398,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
+          "text": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
         },
         {
           "id": "strategy-3",
@@ -1291,7 +1456,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents"
+          "text": "5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents"
         },
         {
           "id": "highlight-5",
@@ -1343,7 +1508,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
+          "text": "At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
         },
         {
           "id": "location-title-1",
@@ -1530,7 +1695,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return."
+          "text": "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return."
         },
         {
           "id": "valuation-2",
@@ -1540,7 +1705,7 @@
             "pricing:decision"
           ],
           "framed_as": null,
-          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
+          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
         },
         {
           "id": "valuation-3",
@@ -1665,7 +1830,7 @@
           ],
           "strategy_copy": [
             "Most Los Angeles multifamily offerings ask a buyer to inherit somebody else's rent roll. This one does not. Five of eight units convey vacant, so 62.5% of the building resets at market on day one with no inherited rent basis and no tenancy history to underwrite around. That is the headline, and the campaign should say so in the first line rather than burying it in the rent roll.",
-            "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.",
+            "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.",
             "Burbank has no local rent control, and buyers coming from the City of Los Angeles will assume otherwise. State the AB 1482 position and the Burbank Tenant Protection Ordinance directly in the offering rather than leaving a buyer to discover it, and note the pending soft cap proposal in the same breath. A buyer who learns the regulatory picture from us trusts the rest of the file."
           ],
           "narrative": [
@@ -1677,14 +1842,14 @@
             "Five of eight units convey vacant: 62.5% of the building resets at market with no inherited rent basis",
             "Built 1990, the newest building in the Burbank comparable set",
             "No City of Burbank rent stabilization ordinance; rent increases governed by AB 1482",
-            "5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents",
+            "5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents",
             "Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans",
             "Vacant units show updated interiors: wood-look flooring, recessed lighting and refreshed kitchens and baths"
           ],
           "overview": [
             "2500 N Naomi Street is an eight-unit apartment building constructed in 1990 on a 6,892 SF lot in north Burbank, two stories of residential over gated at-grade parking. The unit mix is four one-bedroom, one-bath plans, three two-bedroom, two-bath plans and a single three-bedroom, two-bath plan across 6,844 gross SF. Every unit has at least two bathrooms except the one-bedrooms, a configuration that rents better and turns faster than the one-bath stock that dominates buildings of this size in the submarket.",
             "What separates this offering from the rest of the Burbank market is the delivery. Units 101, 102, 104, 201 and 202 are vacant or contracted to be delivered vacant at close. Only three units convey occupied, at $1,738, $1,795 and $2,400 per month, each roughly 10% to 13% below the current asking rents in the immediate area. A buyer is therefore setting the rent basis on five of eight units rather than inheriting one, and holds near-term upside on the three that remain.",
-            "At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
+            "At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
           ]
         },
         "location": {
@@ -1731,8 +1896,8 @@
         },
         "financial_analysis": {
           "valuation_narrative": [
-            "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.",
-            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
+            "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return.",
+            "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.",
             "The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost."
           ],
           "disclosures": [
@@ -1873,7 +2038,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "recommended positioning",
-          "text": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
+          "text": "The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive."
         },
         {
           "id": "strategy-3",
@@ -1931,7 +2096,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents"
+          "text": "5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents"
         },
         {
           "id": "highlight-5",
@@ -1983,7 +2148,7 @@
             "comps-sale:conclusions"
           ],
           "framed_as": "broker opinion of value",
-          "text": "At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
+          "text": "At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject's smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517."
         },
         {
           "id": "location-title-1",
@@ -2170,7 +2335,7 @@
             "financials:t12"
           ],
           "framed_as": null,
-          "text": "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return."
+          "text": "Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return."
         },
         {
           "id": "valuation-2",
@@ -2180,7 +2345,7 @@
             "pricing:decision"
           ],
           "framed_as": null,
-          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
+          "text": "Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer's rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject's rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them."
         },
         {
           "id": "valuation-3",
@@ -2519,28 +2684,28 @@
     "deal_id": "2500-naomi",
     "domains": {
       "identity": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0",
-      "financial_inputs": "a52a266acb5f92d583ed6c3534d0822ab895e50fe697931cf1a02447f3a95f35",
-      "pricing_decision": "375f8a0d853761ad0346f67aaeae92ffd131d312dd1c1beebe8a2fe5dccbf475",
-      "sale_comps": "416ffb8871d4b815d3a15e8674bba92c28c2078bfad6cb69c4938326638d9d79",
+      "financial_inputs": "f7b6275dde7a462d90ada9742af6a6bf563201a19e01bb8a752da0740d6ac68a",
+      "pricing_decision": "044490524d2def15fcb434f797b4ee035efb55914ed1f197c96bbff71cc85941",
+      "sale_comps": "380d16faf2351d70d2418733b642aa4a53c2c639b6eea5769d344c82a363ed62",
       "rent_comps": "b3509433902641d3273d3b1284c82aadf3810162174e7e0617aa67fc078c990b",
-      "copy": "1e832ec56741d18ad09f39b48c80a3f4d687caf92cbe36600589ed6387ec4307",
+      "copy": "13c1661d67647a40c0d00645485d003f3e3133c5adc3f593445974caad5bf5ce",
       "media_selection": "644c79d6f44623d7c1803ddadaa3727f2c8176148402b2f1c1e83a423a589da4",
       "regulatory_conclusions": "cefd4995577d7d60092d17ae6cebe05c2d2c7bcbbdd6ce004dda345ef43249c2"
     },
     "presentation_hashes": {
       "identity": "1a8009564202d27c569626ef897d95a59488d65363eafb7f288eff3e1f410880",
-      "financial_inputs": "419e09dcd4bdd4f53fc3a584ec2328c1f532c27bd777aa9676bf74301ed8b7e6",
-      "pricing_decision": "e5f90e66f87526933e12cec7584b333eb389cdb356e70eb2066253f70882a4c5",
-      "sale_comps": "fa79eba7c1f3a8fd26e0bfbdaa0f8bd0f21773b2dfa28cf8e6e9165d128a004f",
+      "financial_inputs": "b6c8de1cea130ee58d4b694a2ded1375d87feb242a009daaf91fbee04b874c90",
+      "pricing_decision": "621f2538b241738276e96cc8e3976bb6c4d9acb6db808686acbdfe47d943a36c",
+      "sale_comps": "ae27b0356257bb693af4737ac44fe54834bf4042588ee8bebc9288f2bc09a041",
       "rent_comps": "c615affe11b790b04f76404399366ab47738bb09cfce2668ccbb0238d87479ea",
-      "copy": "1ba21bfbca632cc48cf73f50ba70ee83bc4ea76de7eeeabe74b81ee1a0d26650",
+      "copy": "e0a88658cb4c587c36d852830680d632866a261a98de39c7c708b9557f297f9e",
       "media_selection": "2ef924065b5748cdd1b0b194999792933208bacf4c9f2758dc6b04fff07ed978",
       "regulatory_conclusions": "110872e297fb2a9d087aafd6542e9fea43cdb80f8a08b2afc90de0d5b2ee9047"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-08-27T18:34:48+00:00",
+    "generated": "2026-08-27T20:55:35+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

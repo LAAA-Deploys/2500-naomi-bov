@@ -3,11 +3,11 @@
   "scope": "deal",
   "deal_id": "2500-naomi",
   "portfolio_id": null,
-  "package_version": "v7",
-  "approved_at": "2026-08-27T18:34:38.448800+00:00",
+  "package_version": "v8",
+  "approved_at": "2026-08-27T20:55:21.057158+00:00",
   "approver": "Filip Niculete",
   "price": {
-    "value": 2875000
+    "value": 2750000
   },
   "approved_exception_ids": [
     "exc-comp-income",
@@ -18,10 +18,10 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "1e832ec56741d18ad09f39b48c80a3f4d687caf92cbe36600589ed6387ec4307"
+      "content_sha256": "13c1661d67647a40c0d00645485d003f3e3133c5adc3f593445974caad5bf5ce"
     },
     "financial_inputs": {
-      "content_sha256": "a52a266acb5f92d583ed6c3534d0822ab895e50fe697931cf1a02447f3a95f35"
+      "content_sha256": "f7b6275dde7a462d90ada9742af6a6bf563201a19e01bb8a752da0740d6ac68a"
     },
     "identity": {
       "content_sha256": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0"
@@ -30,7 +30,7 @@
       "content_sha256": "644c79d6f44623d7c1803ddadaa3727f2c8176148402b2f1c1e83a423a589da4"
     },
     "pricing_decision": {
-      "content_sha256": "375f8a0d853761ad0346f67aaeae92ffd131d312dd1c1beebe8a2fe5dccbf475"
+      "content_sha256": "044490524d2def15fcb434f797b4ee035efb55914ed1f197c96bbff71cc85941"
     },
     "regulatory_conclusions": {
       "content_sha256": "cefd4995577d7d60092d17ae6cebe05c2d2c7bcbbdd6ce004dda345ef43249c2"
@@ -39,7 +39,7 @@
       "content_sha256": "b3509433902641d3273d3b1284c82aadf3810162174e7e0617aa67fc078c990b"
     },
     "sale_comps": {
-      "content_sha256": "416ffb8871d4b815d3a15e8674bba92c28c2078bfad6cb69c4938326638d9d79"
+      "content_sha256": "380d16faf2351d70d2418733b642aa4a53c2c639b6eea5769d344c82a363ed62"
     }
   },
   "legacy_snapshot": false,

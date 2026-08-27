@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="laaa-figures-pulled" content="2026-08-27T18:34:48+00:00">
+<meta name="laaa-figures-pulled" content="2026-08-27T20:55:35+00:00">
 <meta name="description" content="8-Unit Multifamily Investment - Burbank, CA 91504 | LAAA Team - Marcus &amp; Millichap">
 <meta property="og:title" content="Broker Opinion of Value - 2500 N Naomi">
 <meta property="og:description" content="8-Unit Multifamily Investment - Burbank, CA 91504 | LAAA Team - Marcus &amp; Millichap">
@@ -211,6 +211,24 @@ td.num, th.num { text-align: right; }
 .loc-wide-map img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .loc-wide-map.comp-map { background: #e8e4d8; }
 .loc-wide-map.comp-map img { object-fit: cover; }
+/* Tap-to-explore map overlay (opt-in via presentation.interactive_maps). */
+.map-explore { position: relative; cursor: pointer; }
+.map-explore:focus-visible { outline: 3px solid #C5A258; outline-offset: 2px; }
+.map-explore-hint { position: absolute; right: 12px; bottom: 12px; background: rgba(27,58,92,0.92); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: 0.3px; padding: 6px 14px; border-radius: 999px; pointer-events: none; }
+.map-explore:hover .map-explore-hint { background: #C5A258; }
+.map-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(15,26,40,0.55); display: flex; }
+.map-overlay[hidden] { display: none; }
+.map-overlay-panel { flex: 1; display: flex; flex-direction: column; margin: 2vh 2vw; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 48px rgba(0,0,0,0.35); }
+.map-overlay-head { display: flex; justify-content: space-between; align-items: center; background: #1B3A5C; color: #fff; padding: 12px 20px; flex: none; }
+.map-overlay-title { font-family: 'DM Serif Display', serif; font-size: 20px; }
+.map-overlay-close { background: none; border: none; color: #fff; font-size: 28px; line-height: 1; cursor: pointer; padding: 2px 8px; }
+.map-overlay-close:hover { color: #C5A258; }
+.map-overlay-body { flex: 1; position: relative; }
+.map-overlay-canvas { position: absolute; inset: 0; }
+.map-overlay-canvas .leaflet-container { font-family: 'Inter', sans-serif; }
+.map-overlay-fallback { padding: 40px; font-size: 14px; color: #2F3640; text-align: center; }
+.bov-pin svg { filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35)); }
+@media print { .map-overlay, .map-explore-hint { display: none !important; } }
 .prop-grid-4 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 .improv-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 28px; align-items: start; margin-top: 24px; }
 .improv-list { list-style: none; }
@@ -566,7 +584,7 @@ td.num, th.num { text-align: right; }
   </div>
   <div class="buyer-split">
     <div class="buyer-split-left"><h3 class="sub-heading">Likely Buyer Profiles</h3><div class="buyer-profile-grid"><article class="buyer-card"><span class="buyer-card-index">Likely Buyer 01</span><h4>1031 Exchange Buyer on a Deadline</h4><p>A vacant-delivery building is unusually well suited to an exchange buyer, who needs to identify and close on a clock and cannot afford surprises in a rent roll. There is very little tenancy diligence here to slow a closing.</p></article><article class="buyer-card"><span class="buyer-card-index">Likely Buyer 02</span><h4>Local Private Owner-Operator</h4><p>Burbank&#x27;s small multifamily stock is held largely by long-term local owners, several of whom appear in this comparable set as recent buyers. This is a group that self-manages, knows the leasing market block by block and does not need a lease-up study to price the vacancy.</p></article><article class="buyer-card"><span class="buyer-card-index">Likely Buyer 03</span><h4>Value-Add Buyer Priced Out of Los Angeles RSO Stock</h4><p>Buyers working in the City of Los Angeles face RSO buildings where a vacant unit is the only repricing event available and evictions are constrained. Burbank offers the same San Fernando Valley geography without a local rent stabilization ordinance, and this property offers five repricing events at once.</p></article></div></div>
-    <div class="buyer-split-right"><h3 class="sub-heading">Transaction Strategy</h3><div class="strategy-path"><article class="strategy-step"><span class="strategy-number">01</span><div><h4>Lead With the Vacancy</h4><p>Most Los Angeles multifamily offerings ask a buyer to inherit somebody else&#x27;s rent roll. This one does not. Five of eight units convey vacant, so 62.5% of the building resets at market on day one with no inherited rent basis and no tenancy history to underwrite around. That is the headline, and the campaign should say so in the first line rather than burying it in the rent roll.</p></div></article><article class="strategy-step"><span class="strategy-number">02</span><div><h4>Price Against Per Square Foot, Not Per Unit</h4><p>The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $420 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.</p></div></article><article class="strategy-step"><span class="strategy-number">03</span><div><h4>Sell the Regulatory Position Plainly</h4><p>Burbank has no local rent control, and buyers coming from the City of Los Angeles will assume otherwise. State the AB 1482 position and the Burbank Tenant Protection Ordinance directly in the offering rather than leaving a buyer to discover it, and note the pending soft cap proposal in the same breath. A buyer who learns the regulatory picture from us trusts the rest of the file.</p></div></article></div></div>
+    <div class="buyer-split-right"><h3 class="sub-heading">Transaction Strategy</h3><div class="strategy-path"><article class="strategy-step"><span class="strategy-number">01</span><div><h4>Lead With the Vacancy</h4><p>Most Los Angeles multifamily offerings ask a buyer to inherit somebody else&#x27;s rent roll. This one does not. Five of eight units convey vacant, so 62.5% of the building resets at market on day one with no inherited rent basis and no tenancy history to underwrite around. That is the headline, and the campaign should say so in the first line rather than burying it in the rent roll.</p></div></article><article class="strategy-step"><span class="strategy-number">02</span><div><h4>Price Against Per Square Foot, Not Per Unit</h4><p>The two closest comparables by unit count and vintage sold at $406,254 and $412,500 per unit, but both are materially larger buildings. Quoting those per-unit figures invites a buyer to discount for unit size. Leading with price per square foot, where the subject sits at $402 inside a $371 to $517 range, frames the same price as mid-market rather than aggressive.</p></div></article><article class="strategy-step"><span class="strategy-number">03</span><div><h4>Sell the Regulatory Position Plainly</h4><p>Burbank has no local rent control, and buyers coming from the City of Los Angeles will assume otherwise. State the AB 1482 position and the Burbank Tenant Protection Ordinance directly in the offering rather than leaving a buyer to discover it, and note the pending soft cap proposal in the same breath. A buyer who learns the regulatory picture from us trusts the rest of the file.</p></div></article></div></div>
   </div>
 </div>
 
@@ -581,13 +599,13 @@ td.num, th.num { text-align: right; }
       <div class="inv-text">
 <p>2500 N Naomi Street is an eight-unit apartment building constructed in 1990 on a 6,892 SF lot in north Burbank, two stories of residential over gated at-grade parking. The unit mix is four one-bedroom, one-bath plans, three two-bedroom, two-bath plans and a single three-bedroom, two-bath plan across 6,844 gross SF. Every unit has at least two bathrooms except the one-bedrooms, a configuration that rents better and turns faster than the one-bath stock that dominates buildings of this size in the submarket.</p>
 <p>What separates this offering from the rest of the Burbank market is the delivery. Units 101, 102, 104, 201 and 202 are vacant or contracted to be delivered vacant at close. Only three units convey occupied, at $1,738, $1,795 and $2,400 per month, each roughly 10% to 13% below the current asking rents in the immediate area. A buyer is therefore setting the rent basis on five of eight units rather than inheriting one, and holds near-term upside on the three that remain.</p>
-<p>At the recommended $2.88M the property prices at $359,375 per unit and $420 per SF, producing a 5.06% return on current scheduled income and 5.36% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject&#x27;s smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517.</p>
+<p>At the recommended $2.75M the property prices at $343,750 per unit and $402 per SF, producing a 5.35% return on current scheduled income and 5.66% at underwritten market rents. That per-unit figure sits below both late-1980s eight-unit comparables, which is appropriate given the subject&#x27;s smaller average unit, while the per-square-foot figure sits in the middle of a range running from $371 to $517.</p>
 <p>The right buyer here is not the one paying the highest headline price. It is the one who can close without financing contingent on in-place income and can lease five units quickly, because that buyer is the one whose offer survives to closing. Positioning should qualify on capital and lease-up capability early rather than discover it in escrow.</p>
       </div>
     </div>
     <div class="inv-right">
       <div class="inv-photo"><img src="images/zillow-673be2db.jpg" alt="2500 N Naomi" loading="lazy"></div>
-      <div class="inv-highlights"><h4>Investment Highlights</h4><ul><li>Five of eight units convey vacant: 62.5% of the building resets at market with no inherited rent basis</li><li>Built 1990, the newest building in the Burbank comparable set</li><li>No City of Burbank rent stabilization ordinance; rent increases governed by AB 1482</li><li>5.06% cap rate and 12.93 GRM on current scheduled income, improving to 5.36% at market rents</li><li>Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans</li><li>Vacant units show updated interiors: wood-look flooring, recessed lighting and refreshed kitchens and baths</li></ul></div>
+      <div class="inv-highlights"><h4>Investment Highlights</h4><ul><li>Five of eight units convey vacant: 62.5% of the building resets at market with no inherited rent basis</li><li>Built 1990, the newest building in the Burbank comparable set</li><li>No City of Burbank rent stabilization ordinance; rent increases governed by AB 1482</li><li>5.35% cap rate and 12.37 GRM on current scheduled income, improving to 5.66% at market rents</li><li>Eight units across 6,844 gross SF on a 6,892 SF BUR4 lot, all two-bath and three-bath plans</li><li>Vacant units show updated interiors: wood-look flooring, recessed lighting and refreshed kitchens and baths</li></ul></div>
     </div>
   </div>
 </div>
@@ -607,7 +625,7 @@ td.num, th.num { text-align: right; }
       <table class="info-table"><thead><tr><th colspan="2">Property &amp; Location Details</th></tr></thead><tbody><tr><td>Address</td><td>2500 N Naomi Street, Burbank, CA 91504</td></tr><tr><td>City</td><td>Burbank, CA 91504</td></tr><tr><td>APN</td><td>2466-014-017</td></tr><tr><td>Year Built</td><td>1990</td></tr><tr><td>Building SF</td><td>6,844</td></tr><tr><td>Lot Size</td><td>6,892 SF (0.158 ac)</td></tr><tr><td>Units</td><td>8</td></tr><tr><td>Parking</td><td>Gated on-site parking at grade beneath the building; verify configuration and count during inspection</td></tr></tbody></table>
     </div>
   </div>
-  <div class="loc-wide-map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-subject-tall.png"><img src="images/maps-2500-naomi-subject.png" alt="Location Map" loading="lazy"></picture></div>
+  <div class="loc-wide-map map-explore" data-map-explore="subject" role="button" tabindex="0" aria-label="Location Map: open interactive map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-subject-tall.png"><img src="images/maps-2500-naomi-subject.png" alt="Location Map" loading="lazy"></picture><span class="map-explore-hint">Explore map</span></div>
 </div>
 
 <div class="page-break-marker"></div>
@@ -656,7 +674,7 @@ td.num, th.num { text-align: right; }
   <div class="section-title">Rent Comparables</div>
   <div class="section-subtitle">Achieved and Asking Rents in the Immediate Submarket</div>
   <div class="section-divider"></div>
-  <div class="loc-wide-map comp-map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-rent-comps-tall.png"><img src="images/maps-2500-naomi-rent-comps.png" alt="Rent Comps Map" loading="lazy"></picture></div>
+  <div class="loc-wide-map comp-map map-explore" data-map-explore="rent" role="button" tabindex="0" aria-label="Rent Comps Map: open interactive map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-rent-comps-tall.png"><img src="images/maps-2500-naomi-rent-comps.png" alt="Rent Comps Map" loading="lazy"></picture><span class="map-explore-hint">Explore map</span></div>
   <h3 class="sub-heading">One Bedroom Comparables</h3>
   <div class="table-scroll"><table>
     <thead><tr><th>Address</th><th>Unit Type</th><th class="num">SF</th><th class="num">Asking Rent</th><th class="num">Distance</th></tr></thead>
@@ -687,7 +705,7 @@ td.num, th.num { text-align: right; }
   <div class="section-title">Sale Comparables</div>
   <div class="section-subtitle">4 Closed Sales in the Submarket</div>
   <div class="section-divider"></div>
-  <div class="loc-wide-map comp-map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-sale-comps-tall.png"><img src="images/maps-2500-naomi-sale-comps.png" alt="Sale Comps Map" loading="lazy"></picture></div>
+  <div class="loc-wide-map comp-map map-explore" data-map-explore="sale" role="button" tabindex="0" aria-label="Sale Comps Map: open interactive map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-sale-comps-tall.png"><img src="images/maps-2500-naomi-sale-comps.png" alt="Sale Comps Map" loading="lazy"></picture><span class="map-explore-hint">Explore map</span></div>
   <div class="table-scroll"><table>
     <thead><tr><th>Address</th><th class="num">Yr</th><th class="num">Units</th><th class="num">Bldg SF</th><th class="num">Sale Price</th><th class="num">$/Unit</th><th class="num">$/SF</th><th class="num">GRM</th><th class="num">Cap</th><th class="num">Date</th></tr></thead>
     <tbody><tr><td><span class="map-ref">1</span>638 E Tujunga Ave, Burbank</td><td class="num">1989</td><td class="num">8</td><td class="num">10,020</td><td class="num">$4,700,000</td><td class="num">$587,500</td><td class="num">$469</td><td class="num">14.46</td><td class="num">5.00%</td><td class="num">2026-02-27</td></tr><tr><td><span class="map-ref">2</span>215 N Cordova St, Burbank</td><td class="num">1988</td><td class="num">8</td><td class="num">8,416</td><td class="num">$4,039,000</td><td class="num">$504,875</td><td class="num">$480</td><td class="num">14.91</td><td class="num">4.73%</td><td class="num">2026-01-07</td></tr><tr><td><span class="map-ref">3</span>536 E Cypress Ave, Burbank</td><td class="num">1986</td><td class="num">13</td><td class="num">15,012</td><td class="num">$4,875,000</td><td class="num">$375,000</td><td class="num">$325</td><td class="num">16.09</td><td class="num">4.40%</td><td class="num">2025-02-04</td></tr><tr><td><span class="map-ref">4</span>420 W Elmwood Ave, Burbank</td><td class="num">1988</td><td class="num">9</td><td class="num">9,310</td><td class="num">$3,525,000</td><td class="num">$391,667</td><td class="num">$379</td><td class="num">15.94</td><td class="num">3.87%</td><td class="num">2024-08-01</td></tr>
@@ -706,7 +724,7 @@ td.num, th.num { text-align: right; }
   <div class="section-divider"></div>
   <div class="table-scroll"><table data-summary-exempt="A valuation ladder has no aggregate: the rows are alternative prices for the same asset, not components of a total.">
     <thead><tr><th>Basis</th><th class="num">Price</th><th class="num">$/Unit</th><th class="num">$/SF</th><th class="num">GRM Current</th><th class="num">GRM Pro Forma</th><th class="num">Cap Current</th><th class="num">Cap Pro Forma</th></tr></thead>
-    <tbody><tr class="highlight"><td><strong>Suggested list price</strong></td><td class="num">$2,875,000</td><td class="num">$359,375</td><td class="num">$420.08</td><td class="num">12.93</td><td class="num">12.41</td><td class="num">5.06%</td><td class="num">5.36%</td></tr><tr><td><strong>Range top</strong></td><td class="num">$2,975,000</td><td class="num">$371,875</td><td class="num">$434.69</td><td class="num">13.38</td><td class="num">12.85</td><td class="num">4.85%</td><td class="num">5.14%</td></tr><tr><td><strong>Midpoint</strong></td><td class="num">$2,862,500</td><td class="num">$357,812</td><td class="num">$418.25</td><td class="num">12.87</td><td class="num">12.36</td><td class="num">5.09%</td><td class="num">5.39%</td></tr><tr><td><strong>Range bottom</strong></td><td class="num">$2,750,000</td><td class="num">$343,750</td><td class="num">$401.81</td><td class="num">12.37</td><td class="num">11.87</td><td class="num">5.35%</td><td class="num">5.66%</td></tr></tbody>
+    <tbody><tr class="highlight"><td><strong>Suggested list price</strong></td><td class="num">$2,750,000</td><td class="num">$343,750</td><td class="num">$401.81</td><td class="num">12.37</td><td class="num">11.87</td><td class="num">5.35%</td><td class="num">5.66%</td></tr><tr><td><strong>Range top</strong></td><td class="num">$2,975,000</td><td class="num">$371,875</td><td class="num">$434.69</td><td class="num">13.38</td><td class="num">12.85</td><td class="num">4.85%</td><td class="num">5.14%</td></tr><tr><td><strong>Midpoint</strong></td><td class="num">$2,862,500</td><td class="num">$357,812</td><td class="num">$418.25</td><td class="num">12.87</td><td class="num">12.36</td><td class="num">5.09%</td><td class="num">5.39%</td></tr><tr><td><strong>Range bottom</strong></td><td class="num">$2,750,000</td><td class="num">$343,750</td><td class="num">$401.81</td><td class="num">12.37</td><td class="num">11.87</td><td class="num">5.35%</td><td class="num">5.66%</td></tr></tbody>
   </table></div>
   <p class="narrative">Property taxes reassess at the sale price, so the net operating income and therefore the capitalization rate are recalculated at every rung above.</p>
 </div>
@@ -716,23 +734,23 @@ td.num, th.num { text-align: right; }
   <div class="section-title">On-Market Comparables</div>
   <div class="section-subtitle">Active Competition and the Pricing Ceiling</div>
   <div class="section-divider"></div>
-  <div class="loc-wide-map comp-map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-active-comps-tall.png"><img src="images/maps-2500-naomi-active-comps.png" alt="On-Market Comps Map" loading="lazy"></picture></div>
+  <div class="loc-wide-map comp-map map-explore" data-map-explore="active" role="button" tabindex="0" aria-label="On-Market Comps Map: open interactive map"><picture><source media="(max-width: 700px)" srcset="images/maps-2500-naomi-active-comps-tall.png"><img src="images/maps-2500-naomi-active-comps.png" alt="On-Market Comps Map" loading="lazy"></picture><span class="map-explore-hint">Explore map</span></div>
   <h3 class="sub-heading">Side by Side: 2500 N Naomi vs 2001-2005 Grismer Ave, Burbank and Grismer at $4,500,000</h3>
   <div class="table-scroll"><table data-summary-exempt="Columns describing different assets, or the same asset at different prices, have no aggregate; the rows are paired attributes, not components of a total.">
     <thead><tr><th></th><th class="num">2500 N Naomi</th><th class="num">2001-2005 Grismer Ave, Burbank</th><th class="num">Grismer at $4,500,000</th></tr></thead>
     <tbody>
-<tr class="summary"><td>List Price</td><td class="num"><strong>$2,875,000</strong></td><td class="num"><strong>$5,350,000</strong></td><td class="num"><strong>$4,500,000</strong></td></tr>
-<tr><td>Price per Unit</td><td class="num">$359,375</td><td class="num">$382,143</td><td class="num">$321,429</td></tr>
-<tr><td>Price per SF</td><td class="num">$420.08</td><td class="num">$472.03</td><td class="num">$397.04</td></tr>
-<tr><td>Cap Rate</td><td class="num">5.06%</td><td class="num">4.56%</td><td class="num">5.42%</td></tr>
-<tr><td>GRM</td><td class="num">12.93</td><td class="num">14.46</td><td class="num">12.16</td></tr>
+<tr class="summary"><td>List Price</td><td class="num"><strong>$2,750,000</strong></td><td class="num"><strong>$5,350,000</strong></td><td class="num"><strong>$4,500,000</strong></td></tr>
+<tr><td>Price per Unit</td><td class="num">$343,750</td><td class="num">$382,143</td><td class="num">$321,429</td></tr>
+<tr><td>Price per SF</td><td class="num">$401.81</td><td class="num">$472.03</td><td class="num">$397.04</td></tr>
+<tr><td>Cap Rate</td><td class="num">5.35%</td><td class="num">4.56%</td><td class="num">5.42%</td></tr>
+<tr><td>GRM</td><td class="num">12.37</td><td class="num">14.46</td><td class="num">12.16</td></tr>
 <tr><td>Units</td><td class="num">8</td><td class="num">14</td><td class="num">14</td></tr>
 <tr><td>Year Built</td><td class="num">1990</td><td class="num">1987</td><td class="num">1987</td></tr>
 <tr><td>Building SF</td><td class="num">6,844</td><td class="num">11,334</td><td class="num">11,334</td></tr>
     </tbody>
   </table></div>
-  <p class="os-note">The third column restates 2001-2005 Grismer Avenue&#x27;s own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing&#x27;s fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer&#x27;s sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject&#x27;s 5.06% sits on income already at market, because five of eight units convey vacant and reset on day one.</p>
-  <div class="comp-narratives"><p class="narrative"><strong>2001-2005 Grismer Ave, Burbank</strong> - The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $359,375 per unit and $420.08 per SF at a 5.06% cap and a 12.93 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 6.0% cheaper per unit and 11.0% cheaper per SF, on a half point more going-in yield. Fourteen units in 11,334 SF on an 11,440 SF lot, built 1987, all two-bedroom two-bath. The subject is eight units in 6,844 SF on 6,892 SF, built 1990, with a mix of one, two and three-bedroom plans.</p></div>
+  <p class="os-note">The third column restates 2001-2005 Grismer Avenue&#x27;s own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing&#x27;s fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer&#x27;s sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject&#x27;s 5.35% sits on income already at market, because five of eight units convey vacant and reset on day one.</p>
+  <div class="comp-narratives"><p class="narrative"><strong>2001-2005 Grismer Ave, Burbank</strong> - The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $343,750 per unit and $401.81 per SF at a 5.35% cap and a 12.37 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 10.0% cheaper per unit and 14.9% cheaper per SF, on eight tenths of a point more going-in yield. Fourteen units in 11,334 SF on an 11,440 SF lot, built 1987, all two-bedroom two-bath. The subject is eight units in 6,844 SF on 6,892 SF, built 1990, with a mix of one, two and three-bedroom plans.</p></div>
 </div>
 
 <div class="page-break-marker"></div>
@@ -754,22 +772,22 @@ td.num, th.num { text-align: right; }
     <div class="os-left">
       <h3 class="sub-heading">Annualized Operating Data</h3>
       <table><thead><tr><th>&nbsp;</th><th class="num">Current</th><th class="num">Market</th></tr></thead>
-      <tbody><tr><td>Scheduled Gross Income<sup>[2]</sup></td><td class="num">$222,396</td><td class="num">$231,600</td></tr><tr><td>Vacancy Reserve at 3.0%<sup>[3]</sup></td><td class="num">($6,672)</td><td class="num">($6,948)</td></tr><tr class="summary"><td>Gross Operating Income</td><td class="num">$215,724</td><td class="num">$224,652</td></tr><tr><td>Operating Expenses</td><td class="num">($70,108)</td><td class="num">($70,465)</td></tr><tr class="summary"><td>Net Operating Income</td><td class="num">$145,616</td><td class="num">$154,187</td></tr></tbody></table>
+      <tbody><tr><td>Scheduled Gross Income<sup>[2]</sup></td><td class="num">$222,396</td><td class="num">$231,600</td></tr><tr><td>Vacancy Reserve at 3.0%<sup>[3]</sup></td><td class="num">($6,672)</td><td class="num">($6,948)</td></tr><tr class="summary"><td>Gross Operating Income</td><td class="num">$215,724</td><td class="num">$224,652</td></tr><tr><td>Operating Expenses</td><td class="num">($68,629)</td><td class="num">($68,986)</td></tr><tr class="summary"><td>Net Operating Income</td><td class="num">$147,095</td><td class="num">$155,666</td></tr></tbody></table>
     </div>
     <div class="os-right">
       <h3 class="sub-heading">Annualized Expenses</h3>
       <table><thead><tr><th>&nbsp;</th><th class="num">Current</th><th class="num">Pro Forma</th></tr></thead>
-      <tbody><tr><td>Real Estate Taxes<span class="note-ref">[4]</span></td><td class="num">$34,020</td><td class="num">$34,020</td></tr><tr><td>Insurance<span class="note-ref">[5]</span></td><td class="num">$8,444</td><td class="num">$8,444</td></tr><tr><td>Utilities - Water, Power &amp; Trash<span class="note-ref">[6]</span></td><td class="num">$7,592</td><td class="num">$7,592</td></tr><tr><td>Utilities - Gas<span class="note-ref">[7]</span></td><td class="num">$2,441</td><td class="num">$2,441</td></tr><tr><td>Repairs &amp; Maintenance<span class="note-ref">[8]</span></td><td class="num">$6,080</td><td class="num">$6,080</td></tr><tr><td>Landscaping<span class="note-ref">[9]</span></td><td class="num">$840</td><td class="num">$840</td></tr><tr><td>Fire Department Inspection<span class="note-ref">[10]</span></td><td class="num">$62</td><td class="num">$62</td></tr><tr><td>Replacement Reserves<span class="note-ref">[11]</span></td><td class="num">$2,000</td><td class="num">$2,000</td></tr><tr><td>Management Fee (4.0% of EGI)<span class="note-ref">[12]</span></td><td class="num">$8,629</td><td class="num">$8,986</td></tr>
-<tr class="summary"><td><strong>Total Operating Expenses</strong></td><td class="num"><strong>$70,108</strong></td><td class="num"><strong>$70,465</strong></td></tr>
-<tr><td>Expense Ratio</td><td class="num">32.5%</td><td class="num">31.4%</td></tr>
-<tr><td>Per Unit</td><td class="num">$8,764</td><td class="num">$8,808</td></tr>
-<tr><td>Per Square Foot</td><td class="num">$10.24</td><td class="num">$10.30</td></tr>
+      <tbody><tr><td>Real Estate Taxes<span class="note-ref">[4]</span></td><td class="num">$32,541</td><td class="num">$32,541</td></tr><tr><td>Insurance<span class="note-ref">[5]</span></td><td class="num">$8,444</td><td class="num">$8,444</td></tr><tr><td>Utilities - Water, Power &amp; Trash<span class="note-ref">[6]</span></td><td class="num">$7,592</td><td class="num">$7,592</td></tr><tr><td>Utilities - Gas<span class="note-ref">[7]</span></td><td class="num">$2,441</td><td class="num">$2,441</td></tr><tr><td>Repairs &amp; Maintenance<span class="note-ref">[8]</span></td><td class="num">$6,080</td><td class="num">$6,080</td></tr><tr><td>Landscaping<span class="note-ref">[9]</span></td><td class="num">$840</td><td class="num">$840</td></tr><tr><td>Fire Department Inspection<span class="note-ref">[10]</span></td><td class="num">$62</td><td class="num">$62</td></tr><tr><td>Replacement Reserves<span class="note-ref">[11]</span></td><td class="num">$2,000</td><td class="num">$2,000</td></tr><tr><td>Management Fee (4.0% of EGI)<span class="note-ref">[12]</span></td><td class="num">$8,629</td><td class="num">$8,986</td></tr>
+<tr class="summary"><td><strong>Total Operating Expenses</strong></td><td class="num"><strong>$68,629</strong></td><td class="num"><strong>$68,986</strong></td></tr>
+<tr><td>Expense Ratio</td><td class="num">31.8%</td><td class="num">30.7%</td></tr>
+<tr><td>Per Unit</td><td class="num">$8,579</td><td class="num">$8,623</td></tr>
+<tr><td>Per Square Foot</td><td class="num">$10.03</td><td class="num">$10.08</td></tr>
 </tbody></table>
     </div>
   </div>
   <div class="os-notes">
     <h4>Notes to the Operating Statement</h4>
-<p class="os-note"><span class="note-ref">[1]</span> <strong>Additional Income:</strong> None. Ownership reports no laundry, parking, storage or utility bill-back income.</p><p class="os-note"><span class="note-ref">[2]</span> <strong>Scheduled Gross Income:</strong> Eight units at scheduled rent. The three occupied units carry their actual rents of $1,738, $1,795 and $2,400; the five units conveying vacant carry asking rents of $2,000, $2,700 and $3,200, which is standard Los Angeles practice for a property delivering vacant. The market column carries all eight units at underwritten market rents.</p><p class="os-note"><span class="note-ref">[3]</span> <strong>Vacancy Reserve:</strong> 3.0% of scheduled gross rent. This is an ongoing stabilized reserve and does not model the lease-up period on the five units conveying vacant, which is a one-time cost a buyer should underwrite separately.</p><p class="os-note"><span class="note-ref">[4]</span> <strong>Real Estate Taxes:</strong> Underwritten at reassessment on the recommended list price using the 1.1833% effective rate derived from the subject&#x27;s own 2025 tax bill, $18,197 against $1,537,790 of assessed value, in tax rate area 2-530. Ownership&#x27;s current taxes reflect a 2004 purchase basis and will not survive a sale.</p><p class="os-note"><span class="note-ref">[5]</span> <strong>Insurance:</strong> Carried at the LAAA underwriting allowance of eight units at $200 plus 6,844 gross SF at $1.00 per SF, or $8,444. Ownership&#x27;s actual 2025 premium is $6,939. Obtain current quotes during diligence.</p><p class="os-note"><span class="note-ref">[6]</span> <strong>Utilities - Water, Power &amp; Trash:</strong> Ownership&#x27;s expense schedule as reported, a single combined annual line. The building is master-metered for these services.</p><p class="os-note"><span class="note-ref">[7]</span> <strong>Utilities - Gas:</strong> Ownership&#x27;s expense schedule as reported, So Cal Gas annual total.</p><p class="os-note"><span class="note-ref">[8]</span> <strong>Repairs &amp; Maintenance:</strong> Ownership&#x27;s reported spend: misc repairs $3,690, plumbing $1,150, materials $1,183 and window covering $57. This is a single year of reported cost, not a trailing twelve-month statement.</p><p class="os-note"><span class="note-ref">[9]</span> <strong>Landscaping:</strong> Ownership&#x27;s expense schedule as reported, gardener annual total.</p><p class="os-note"><span class="note-ref">[10]</span> <strong>Fire Department Inspection:</strong> City of Burbank Fire Department annual inspection fee per ownership&#x27;s expense schedule.</p><p class="os-note"><span class="note-ref">[11]</span> <strong>Replacement Reserves:</strong> $250 per unit per year. Ownership&#x27;s schedule carries no reserve line, so this is an addition to reported cost rather than a restatement of it.</p><p class="os-note"><span class="note-ref">[12]</span> <strong>Management Fee (4.0% of EGI):</strong> Underwritten at 4.0% of effective gross income. Ownership&#x27;s schedule carries no management line, so this is an addition to reported cost rather than a restatement of it.</p>
+<p class="os-note"><span class="note-ref">[1]</span> <strong>Additional Income:</strong> None. Ownership reports no laundry, parking, storage or utility bill-back income.</p><p class="os-note"><span class="note-ref">[2]</span> <strong>Scheduled Gross Income:</strong> Eight units at scheduled rent. The three occupied units carry their actual rents of $1,738, $1,795 and $2,400; the five units conveying vacant carry asking rents of $2,000, $2,700 and $3,200, which is standard Los Angeles practice for a property delivering vacant. The market column carries all eight units at underwritten market rents.</p><p class="os-note"><span class="note-ref">[3]</span> <strong>Vacancy Reserve:</strong> 3.0% of scheduled gross rent. This is an ongoing stabilized reserve and does not model the lease-up period on the five units conveying vacant, which is a one-time cost a buyer should underwrite separately.</p><p class="os-note"><span class="note-ref">[4]</span> <strong>Real Estate Taxes:</strong> Underwritten at reassessment on the recommended list price of $2,750,000 using the 1.1833% effective rate derived from the subject&#x27;s own 2025 tax bill, $18,197 against $1,537,790 of assessed value, in tax rate area 2-530, or $32,541 per year. Ownership&#x27;s current taxes reflect a 2004 purchase basis and will not survive a sale.</p><p class="os-note"><span class="note-ref">[5]</span> <strong>Insurance:</strong> Carried at the LAAA underwriting allowance of eight units at $200 plus 6,844 gross SF at $1.00 per SF, or $8,444. Ownership&#x27;s actual 2025 premium is $6,939. Obtain current quotes during diligence.</p><p class="os-note"><span class="note-ref">[6]</span> <strong>Utilities - Water, Power &amp; Trash:</strong> Ownership&#x27;s expense schedule as reported, a single combined annual line. The building is master-metered for these services.</p><p class="os-note"><span class="note-ref">[7]</span> <strong>Utilities - Gas:</strong> Ownership&#x27;s expense schedule as reported, So Cal Gas annual total.</p><p class="os-note"><span class="note-ref">[8]</span> <strong>Repairs &amp; Maintenance:</strong> Ownership&#x27;s reported spend: misc repairs $3,690, plumbing $1,150, materials $1,183 and window covering $57. This is a single year of reported cost, not a trailing twelve-month statement.</p><p class="os-note"><span class="note-ref">[9]</span> <strong>Landscaping:</strong> Ownership&#x27;s expense schedule as reported, gardener annual total.</p><p class="os-note"><span class="note-ref">[10]</span> <strong>Fire Department Inspection:</strong> City of Burbank Fire Department annual inspection fee per ownership&#x27;s expense schedule.</p><p class="os-note"><span class="note-ref">[11]</span> <strong>Replacement Reserves:</strong> $250 per unit per year. Ownership&#x27;s schedule carries no reserve line, so this is an addition to reported cost rather than a restatement of it.</p><p class="os-note"><span class="note-ref">[12]</span> <strong>Management Fee (4.0% of EGI):</strong> Underwritten at 4.0% of effective gross income. Ownership&#x27;s schedule carries no management line, so this is an addition to reported cost rather than a restatement of it.</p>
     <p class="os-note os-note-foot">Owner-reported figures are unaudited. A buyer should verify all income and expenses in due diligence.</p>
   </div>
 
@@ -777,19 +795,19 @@ td.num, th.num { text-align: right; }
     <div class="summary-banner">Summary</div>
     <div class="summary-two-col">
       <div class="summary-left">
-        <table class="summary-table"><thead><tr><th colspan="2" class="summary-header">Operating Data</th></tr></thead><tbody><tr><td>Price</td><td class="num">$2,875,000</td></tr><tr><td>Number of Units</td><td class="num">8</td></tr><tr><td>Price per Unit</td><td class="num">$359,375</td></tr><tr><td>Price per SF</td><td class="num">$420.08</td></tr><tr><td>Current GRM</td><td class="num">12.93</td></tr><tr><td>Market GRM</td><td class="num">12.41</td></tr><tr><td>Current Cap Rate (LAAA calculation: current NOI / recommended value)</td><td class="num">5.06%</td></tr><tr><td>Market Cap Rate (LAAA calculation: market NOI / recommended value)</td><td class="num">5.36%</td></tr></tbody></table>
+        <table class="summary-table"><thead><tr><th colspan="2" class="summary-header">Operating Data</th></tr></thead><tbody><tr><td>Price</td><td class="num">$2,750,000</td></tr><tr><td>Number of Units</td><td class="num">8</td></tr><tr><td>Price per Unit</td><td class="num">$343,750</td></tr><tr><td>Price per SF</td><td class="num">$401.81</td></tr><tr><td>Current GRM</td><td class="num">12.37</td></tr><tr><td>Market GRM</td><td class="num">11.87</td></tr><tr><td>Current Cap Rate (LAAA calculation: current NOI / recommended value)</td><td class="num">5.35%</td></tr><tr><td>Market Cap Rate (LAAA calculation: market NOI / recommended value)</td><td class="num">5.66%</td></tr></tbody></table>
       </div>
       <div class="summary-right">
-        <table class="summary-table"><thead><tr><th colspan="2" class="summary-header">Acquisition Structure</th></tr></thead><tbody><tr><td>Structure</td><td class="num">All Cash</td></tr><tr><td>Equity Required</td><td class="num">$2,875,000</td></tr></tbody></table>
+        <table class="summary-table"><thead><tr><th colspan="2" class="summary-header">Acquisition Structure</th></tr></thead><tbody><tr><td>Structure</td><td class="num">All Cash</td></tr><tr><td>Equity Required</td><td class="num">$2,750,000</td></tr></tbody></table>
       </div>
     </div>
-<p class="narrative">Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $70,108 of operating expenses, current net operating income is $145,616, a 5.06% return on the recommended price and a 12.93 gross rent multiplier. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $154,187, a 5.36% return.</p>
-<p class="narrative">Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,875,000 is $359,375 per unit and $420.08 per SF, a 5.06% cap and a 12.93 gross rent multiplier. That is 6.0% less per unit and 11.0% less per square foot, half a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer&#x27;s rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject&#x27;s rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.06% cap, a 12.93 multiplier and $359,375 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.</p>
+<p class="narrative">Current scheduled gross rent of $222,396 carries the three occupied units at their actual rents and the five vacant units at asking, which is standard Los Angeles practice for a property conveying vacant. After a 3.0% vacancy reserve and $68,629 of operating expenses, current net operating income is $147,095, a 5.35% return on the recommended price and a 12.37 gross rent multiplier. Real estate taxes are reassessed at the $2,750,000 list price, which is what carries the expense line below the prior underwriting. At market rents across all eight units, scheduled gross rent rises to $231,600 and net operating income to $155,666, a 5.66% return.</p>
+<p class="narrative">Set against the only directly comparable active listing, the recommendation holds up on every metric a buyer will run. 2001-2005 Grismer Ave, a fourteen-unit 1987 building nine tenths of a mile away, asks $5,350,000: $382,143 per unit, $472.03 per SF, a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied. The subject at $2,750,000 is $343,750 per unit and $401.81 per SF, a 5.35% cap and a 12.37 gross rent multiplier. That is 10.0% less per unit and 14.9% less per square foot, eight tenths of a point more going-in yield, a building three years newer, and five of eight units delivering vacant instead of none. The comparison carries a third column at an indicated market value of $4,500,000 for Grismer, where it prices at $321,429 per unit, $397.04 per SF, a 5.42% cap and a 12.16 multiplier. Those two cap rates are not measuring the same thing: Grismer&#x27;s rests on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is still acquiring the rent growth. The subject&#x27;s rests on income already at market. The four closed sales in the comparable set traded at 3.87% to 5.00% caps and 14.46 to 16.09 gross rent multipliers, and at $375,000 to $587,500 per unit. The subject at a 5.35% cap, a 12.37 multiplier and $343,750 per unit is priced at a wider yield, a lower multiplier and less per unit than any of them.</p>
 <p class="narrative">The recommended $2.88M sits inside a supportable range of $2.75M to $2.98M. Below that range the property is underpriced against every per-square-foot comparable in the set; above it, the stated return depends too heavily on leasing all five vacant units at the top of the asking range without a period of carrying cost.</p>
     <div class="price-reveal">
       <div class="summary-trade-range">
         <div class="summary-trade-label">Recommended List Price</div>
-        <div class="summary-trade-prices">$2,875,000</div>
+        <div class="summary-trade-prices">$2,750,000</div>
       </div>
       <p style="font-size:12px;color:#6B7280;margin-top:10px;">Supported value range: $2,750,000 to $2,975,000</p>
     </div>
@@ -945,6 +963,122 @@ document.addEventListener('keydown', function(ev){
   }
 });
 renderThumbs(); slideShow(0);
+var MAP_PINS = {"subject": [{"label": "S", "lat": 34.197493, "lng": -118.339768, "title": "2500 N Naomi Street, Burbank, CA 91504", "subject": true}], "sale": [{"label": "1", "lat": 34.184895, "lng": -118.300427, "title": "638 E Tujunga Ave, Burbank"}, {"label": "2", "lat": 34.155059, "lng": -118.339899, "title": "215 N Cordova St, Burbank"}, {"label": "3", "lat": 34.188262, "lng": -118.309009, "title": "536 E Cypress Ave, Burbank"}, {"label": "4", "lat": 34.165656, "lng": -118.312144, "title": "420 W Elmwood Ave, Burbank"}, {"label": "S", "lat": 34.197493, "lng": -118.339768, "title": "2500 N Naomi Street, Burbank, CA 91504", "subject": true}], "rent": [{"label": "1", "lat": 34.193769, "lng": -118.342677, "title": "2253 N Niagara St #B, Burbank"}, {"label": "2", "lat": 34.194704, "lng": -118.340869, "title": "2324 N Catalina St #H, Burbank"}, {"label": "3", "lat": 34.20013, "lng": -118.337486, "title": "2420 N Buena Vista St #A, Burbank"}, {"label": "4", "lat": 34.194665, "lng": -118.342627, "title": "2321 N Niagara St #F, Burbank"}, {"label": "5", "lat": 34.200001, "lng": -118.337054, "title": "2421 N Brighton St, Burbank"}, {"label": "6", "lat": 34.194349, "lng": -118.324252, "title": "1721 Scott Rd, Burbank"}, {"label": "7", "lat": 34.197093, "lng": -118.326558, "title": "Castillian Apartments, 2021 Grismer Ave #26, Burbank"}, {"label": "8", "lat": 34.196919, "lng": -118.330563, "title": "2025 Peyton Ave #118, Burbank"}, {"label": "9", "lat": 34.192829, "lng": -118.326845, "title": "1731 Rogers Pl, Burbank"}, {"label": "10", "lat": 34.194672, "lng": -118.32493, "title": "1806 Grismer Ave, Burbank"}, {"label": "11", "lat": 34.193973, "lng": -118.321896, "title": "333 Andover Dr, Burbank"}, {"label": "12", "lat": 34.187658, "lng": -118.309713, "title": "476 E Cypress Ave, Burbank"}, {"label": "13", "lat": 34.187613, "lng": -118.309017, "title": "509-519 E San Jose Ave, Burbank"}, {"label": "14", "lat": 34.157055, "lng": -118.34125, "title": "360 N Hollywood Way, Burbank"}, {"label": "15", "lat": 34.180168, "lng": -118.30451, "title": "301 E Verdugo Ave, Burbank"}, {"label": "16", "lat": 34.18569, "lng": -118.303034, "title": "600 E Olive Ave, Burbank"}, {"label": "S", "lat": 34.197493, "lng": -118.339768, "title": "2500 N Naomi Street, Burbank, CA 91504", "subject": true}], "active": [{"label": "1", "lat": 34.196614, "lng": -118.326227, "title": "2001-2005 Grismer Ave, Burbank"}, {"label": "S", "lat": 34.197493, "lng": -118.339768, "title": "2500 N Naomi Street, Burbank, CA 91504", "subject": true}]};
+var MAP_TITLE = "2500 N Naomi";
+
+(function () {
+  if (typeof MAP_PINS === 'undefined' || !MAP_PINS) return;
+  var LEAFLET = {
+    js:  { url: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
+           sri: 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=' },
+    css: { url: 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
+           sri: 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=' }
+  };
+  var TITLES = { subject: 'Location', sale: 'Sale Comparables',
+                 rent: 'Rent Comparables', active: 'On-Market Comparables' };
+  var overlay = null, mapEl = null, titleEl = null, leafletMap = null, loading = null;
+
+  function loadLeaflet() {
+    if (window.L) return Promise.resolve();
+    if (loading) return loading;
+    loading = new Promise(function (resolve, reject) {
+      var css = document.createElement('link');
+      css.rel = 'stylesheet'; css.href = LEAFLET.css.url;
+      css.integrity = LEAFLET.css.sri; css.crossOrigin = 'anonymous';
+      document.head.appendChild(css);
+      var js = document.createElement('script');
+      js.src = LEAFLET.js.url; js.integrity = LEAFLET.js.sri;
+      js.crossOrigin = 'anonymous';
+      js.onload = resolve; js.onerror = reject;
+      document.head.appendChild(js);
+    });
+    return loading;
+  }
+
+  function pinIcon(pin) {
+    var fill = pin.subject ? '#C5A258' : '#1B3A5C';
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="41" viewBox="0 0 30 41">'
+      + '<path d="M15 1C7.3 1 1 7.3 1 15c0 10.5 14 25 14 25s14-14.5 14-25C29 7.3 22.7 1 15 1z" '
+      + 'fill="' + fill + '" stroke="#1B3A5C" stroke-width="1.5"/>'
+      + '<text x="15" y="16" text-anchor="middle" font-family="Inter,Arial,sans-serif" '
+      + 'font-size="12" font-weight="700" fill="#ffffff">' + pin.label + '</text></svg>';
+    return L.divIcon({ className: 'bov-pin', html: svg, iconSize: [30, 41],
+                       iconAnchor: [15, 41], popupAnchor: [0, -36] });
+  }
+
+  function closeMap() {
+    if (!overlay) return;
+    overlay.hidden = true;
+    document.body.style.overflow = '';
+    if (leafletMap) { leafletMap.remove(); leafletMap = null; }
+    if (mapEl) mapEl.innerHTML = '';
+  }
+
+  function ensureOverlay() {
+    if (overlay) return;
+    overlay = document.createElement('div');
+    overlay.className = 'map-overlay'; overlay.hidden = true;
+    var panel = document.createElement('div'); panel.className = 'map-overlay-panel';
+    var head = document.createElement('div'); head.className = 'map-overlay-head';
+    titleEl = document.createElement('span'); titleEl.className = 'map-overlay-title';
+    var close = document.createElement('button'); close.className = 'map-overlay-close';
+    close.type = 'button'; close.setAttribute('aria-label', 'Close map');
+    close.innerHTML = '&times;';
+    close.addEventListener('click', closeMap);
+    head.appendChild(titleEl); head.appendChild(close);
+    var body = document.createElement('div'); body.className = 'map-overlay-body';
+    mapEl = document.createElement('div'); mapEl.className = 'map-overlay-canvas';
+    body.appendChild(mapEl);
+    panel.appendChild(head); panel.appendChild(body); overlay.appendChild(panel);
+    overlay.addEventListener('click', function (ev) { if (ev.target === overlay) closeMap(); });
+    document.body.appendChild(overlay);
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Escape' && overlay && !overlay.hidden) closeMap();
+    });
+  }
+
+  function openMap(key) {
+    var pins = MAP_PINS[key];
+    if (!pins || !pins.length) return;
+    ensureOverlay();
+    titleEl.textContent = (typeof MAP_TITLE !== 'undefined' && MAP_TITLE ? MAP_TITLE + ' - ' : '')
+      + (TITLES[key] || 'Map');
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+    loadLeaflet().then(function () {
+      if (overlay.hidden) return;
+      if (leafletMap) { leafletMap.remove(); mapEl.innerHTML = ''; }
+      leafletMap = L.map(mapEl, { scrollWheelZoom: true, zoomControl: true });
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" ' +
+          'target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+      }).addTo(leafletMap);
+      var bounds = [];
+      pins.forEach(function (pin) {
+        var marker = L.marker([pin.lat, pin.lng], {
+          icon: pinIcon(pin), zIndexOffset: pin.subject ? 1000 : 0
+        }).addTo(leafletMap);
+        var label = document.createElement('span');
+        label.textContent = (pin.subject ? 'Subject: ' : pin.label + '. ') + pin.title;
+        marker.bindPopup(label);
+        bounds.push([pin.lat, pin.lng]);
+      });
+      leafletMap.fitBounds(bounds, { padding: [48, 48], maxZoom: 17 });
+    }).catch(function () {
+      mapEl.innerHTML = '<p class="map-overlay-fallback">The interactive map could not load. ' +
+        'Please check your connection and try again.</p>';
+    });
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-map-explore]'), function (el) {
+    var key = el.getAttribute('data-map-explore');
+    el.addEventListener('click', function () { openMap(key); });
+    el.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); openMap(key); }
+    });
+  });
+})();
 </script>
 </body>
 </html>
