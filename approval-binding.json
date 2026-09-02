@@ -3,9 +3,9 @@
   "scope": "deal",
   "deal_id": "2500-naomi",
   "portfolio_id": null,
-  "package_version": "v9",
-  "approved_at": "2026-08-27T21:03:44.225669+00:00",
-  "approver": "Filip Niculete",
+  "package_version": "v11",
+  "approved_at": "2026-09-02T19:04:28.584043+00:00",
+  "approver": "Glen Scher",
   "price": {
     "value": 2750000
   },
@@ -21,7 +21,7 @@
       "content_sha256": "10259f2774793409822922e0a2ff1c1c34c83f17b19f07a5d33bce3d666190a5"
     },
     "financial_inputs": {
-      "content_sha256": "f7b6275dde7a462d90ada9742af6a6bf563201a19e01bb8a752da0740d6ac68a"
+      "content_sha256": "8a426df5a324b5f97461e9efdadaed2e486b9de58acda1fe7ccc7c1168c6a82c"
     },
     "identity": {
       "content_sha256": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0"
@@ -39,7 +39,7 @@
       "content_sha256": "b3509433902641d3273d3b1284c82aadf3810162174e7e0617aa67fc078c990b"
     },
     "sale_comps": {
-      "content_sha256": "380d16faf2351d70d2418733b642aa4a53c2c639b6eea5769d344c82a363ed62"
+      "content_sha256": "b8dbfae1958e5578ec11c49e58e636c541db64643bb1201562f0330bdc84ecb6"
     }
   },
   "legacy_snapshot": false,

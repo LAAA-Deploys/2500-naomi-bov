@@ -2,6 +2,9 @@
   "schema_version": 3,
   "document_type": "bov",
   "site_mode": "single",
+  "documents": [
+    "documents/2001-2005-grismer-ave-om-price-reduction.pdf"
+  ],
   "meta": {
     "domain": "2500-naomi.laaa.com",
     "client": "2500 N Naomi LLC",
@@ -286,33 +289,99 @@
       "expense_per_sf": 10.027615429573348,
       "unit_mix": [
         {
-          "count": 4,
-          "type": "1 Bed / 1 Bath",
-          "sf": 675,
-          "rent_current": 1883,
-          "monthly_current": 7533,
-          "rent_market": 2000,
-          "monthly_market": 8000,
-          "sf_basis": "labelled_estimate"
-        },
-        {
-          "count": 3,
+          "unit": "Unit 101",
+          "count": 1,
           "type": "2 Bed / 2 Bath",
           "sf": 900,
-          "rent_current": 2600,
-          "monthly_current": 7800,
+          "status": "vacant",
+          "rent_current": 2700,
+          "monthly_current": 2700,
           "rent_market": 2700,
-          "monthly_market": 8100,
+          "monthly_market": 2700,
           "sf_basis": "labelled_estimate"
         },
         {
+          "unit": "Unit 102",
+          "count": 1,
+          "type": "1 Bed / 1 Bath",
+          "sf": 675,
+          "status": "vacant",
+          "rent_current": 2000,
+          "monthly_current": 2000,
+          "rent_market": 2000,
+          "monthly_market": 2000,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 103",
+          "count": 1,
+          "type": "1 Bed / 1 Bath",
+          "sf": 675,
+          "status": "occupied",
+          "rent_current": 1738,
+          "monthly_current": 1738,
+          "rent_market": 2000,
+          "monthly_market": 2000,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 104",
           "count": 1,
           "type": "3 Bed / 2 Bath",
           "sf": 1200,
+          "status": "delivered_vacant",
           "rent_current": 3200,
           "monthly_current": 3200,
           "rent_market": 3200,
           "monthly_market": 3200,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 201",
+          "count": 1,
+          "type": "2 Bed / 2 Bath",
+          "sf": 900,
+          "status": "delivered_vacant",
+          "rent_current": 2700,
+          "monthly_current": 2700,
+          "rent_market": 2700,
+          "monthly_market": 2700,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 202",
+          "count": 1,
+          "type": "1 Bed / 1 Bath",
+          "sf": 675,
+          "status": "delivered_vacant",
+          "rent_current": 2000,
+          "monthly_current": 2000,
+          "rent_market": 2000,
+          "monthly_market": 2000,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 203",
+          "count": 1,
+          "type": "1 Bed / 1 Bath",
+          "sf": 675,
+          "status": "occupied",
+          "rent_current": 1795,
+          "monthly_current": 1795,
+          "rent_market": 2000,
+          "monthly_market": 2000,
+          "sf_basis": "labelled_estimate"
+        },
+        {
+          "unit": "Unit 204",
+          "count": 1,
+          "type": "2 Bed / 2 Bath",
+          "sf": 900,
+          "status": "occupied",
+          "rent_current": 2400,
+          "monthly_current": 2400,
+          "rent_market": 2700,
+          "monthly_market": 2700,
           "sf_basis": "labelled_estimate"
         }
       ],
@@ -807,6 +876,7 @@
           "cap_rate": 5.0,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "The most recent closed eight-unit sale of the subject's construction era anywhere in Burbank, and the only comparable in the whole set that pairs the subject's unit count and vintage with a published cap rate.",
           "relevance": "Eight units in 10,020 SF, so the average unit is roughly 1,253 SF against the subject's 856 SF. The per-unit figure reflects that size difference and does not transfer to the subject; the $469.06 per SF does.",
           "considerations": "Closed at a 5.00% cap on $235,187 of net operating income, February 2026. 2.4 miles from the subject.",
@@ -828,6 +898,7 @@
           "cap_rate": 4.73,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Second eight-unit late-1980s Burbank sale with published income, closed five weeks before Tujunga and at a comparable price per square foot.",
           "relevance": "Eight units in 8,416 SF, an average of 1,052 SF against the subject's 856 SF.",
           "considerations": "Closed at a 4.73% cap on $189,702 of net operating income, January 2026.",
@@ -849,6 +920,7 @@
           "cap_rate": 4.3999999999999995,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Larger 1986 building that sets the low end of the per-square-foot range and the low end of the cap range in the published-income set.",
           "relevance": "Thirteen units in 15,012 SF, an average of 1,155 SF.",
           "considerations": "Closed at a 4.40% cap on $214,569 of net operating income, February 2025.",
@@ -870,6 +942,7 @@
           "cap_rate": 3.8699999999999997,
           "image": null,
           "restatement": null,
+          "document": null,
           "summary": "Oldest trade in the published-income set and the sharpest cap in it; useful as the floor of the yield range rather than as a pricing anchor.",
           "relevance": "Nine units in 9,310 SF, an average of 1,034 SF.",
           "considerations": "Closed at a 3.87% cap on $136,513 of net operating income, August 2024.",
@@ -896,6 +969,10 @@
             "price": 4500000,
             "label": "Grismer at $4,500,000",
             "basis": "The third column restates 2001-2005 Grismer Avenue's own published income at an indicated market value of $4,500,000. Price per unit and price per square foot recompute from that listing's fourteen units and 11,334 SF; the cap rate and gross rent multiplier scale from its published 4.56% and 14.46 by the price ratio. The two cap rates are not measuring the same thing: Grismer's sits on in-place rent averaging $2,203 against the $2,750 its own offering memorandum carries as market, so a buyer there is acquiring roughly 25% of rent growth still to be captured. The subject's 5.35% sits on income already at market, because five of eight units convey vacant and reset on day one."
+          },
+          "document": {
+            "href": "documents/2001-2005-grismer-ave-om-price-reduction.pdf",
+            "label": "Download the Grismer OM"
           },
           "summary": "The only directly comparable active listing in the submarket and the ceiling this offering prices against. Side by side: Grismer asks $382,143 per unit and $472.03 per SF at a 4.56% cap and a 14.46 gross rent multiplier, 100% occupied in a 1987 building. The subject is recommended at $343,750 per unit and $401.81 per SF at a 5.35% cap and a 12.37 gross rent multiplier, in a newer 1990 building delivering five of eight units vacant. The subject is 10.0% cheaper per unit and 14.9% cheaper per SF, on eight tenths of a point more going-in yield.",
           "relevance": "Fourteen units in 11,334 SF on an 11,440 SF lot, built 1987, all two-bedroom two-bath. The subject is eight units in 6,844 SF on 6,892 SF, built 1990, with a mix of one, two and three-bedroom plans.",
@@ -1071,14 +1148,14 @@
       },
       "track_record": {
         "all": {
-          "count": 493,
-          "volume": 1553028899.5,
-          "units": 4704
+          "count": 494,
+          "volume": 1556428899.5,
+          "units": 4719
         },
         "asset_class": {
-          "count": 341,
-          "volume": 1160435729.5,
-          "units": 4688
+          "count": 342,
+          "volume": 1163835729.5,
+          "units": 4703
         },
         "asset_class_label": "Apartments",
         "local": {
@@ -2684,9 +2761,9 @@
     "deal_id": "2500-naomi",
     "domains": {
       "identity": "742786228cf5dacb7c828cd73a94ded144e5bc3839a4cae35efd4117d6dc2ce0",
-      "financial_inputs": "f7b6275dde7a462d90ada9742af6a6bf563201a19e01bb8a752da0740d6ac68a",
+      "financial_inputs": "8a426df5a324b5f97461e9efdadaed2e486b9de58acda1fe7ccc7c1168c6a82c",
       "pricing_decision": "044490524d2def15fcb434f797b4ee035efb55914ed1f197c96bbff71cc85941",
-      "sale_comps": "380d16faf2351d70d2418733b642aa4a53c2c639b6eea5769d344c82a363ed62",
+      "sale_comps": "b8dbfae1958e5578ec11c49e58e636c541db64643bb1201562f0330bdc84ecb6",
       "rent_comps": "b3509433902641d3273d3b1284c82aadf3810162174e7e0617aa67fc078c990b",
       "copy": "10259f2774793409822922e0a2ff1c1c34c83f17b19f07a5d33bce3d666190a5",
       "media_selection": "644c79d6f44623d7c1803ddadaa3727f2c8176148402b2f1c1e83a423a589da4",
@@ -2694,9 +2771,9 @@
     },
     "presentation_hashes": {
       "identity": "1a8009564202d27c569626ef897d95a59488d65363eafb7f288eff3e1f410880",
-      "financial_inputs": "b6c8de1cea130ee58d4b694a2ded1375d87feb242a009daaf91fbee04b874c90",
+      "financial_inputs": "6b2d8a3def20c486a20bd6908f636aaf78e368aca404a2146384443df3da8ab1",
       "pricing_decision": "621f2538b241738276e96cc8e3976bb6c4d9acb6db808686acbdfe47d943a36c",
-      "sale_comps": "ae27b0356257bb693af4737ac44fe54834bf4042588ee8bebc9288f2bc09a041",
+      "sale_comps": "98dde6f3e3e12863693fdd4647adf75fdf1d7d1179abdf8c3a6de46c97ea12de",
       "rent_comps": "c615affe11b790b04f76404399366ab47738bb09cfce2668ccbb0238d87479ea",
       "copy": "a9e04893c128b3ef0e20208a9cd5ac9eec34c828ee1d2e81f37c7820ff24bf90",
       "media_selection": "2ef924065b5748cdd1b0b194999792933208bacf4c9f2758dc6b04fff07ed978",
@@ -2705,7 +2782,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-08-27T21:03:53+00:00",
+    "generated": "2026-09-02T19:04:46+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
@@ -2731,14 +2808,14 @@
     },
     "portfolio_track_record": {
       "all": {
-        "count": 493,
-        "volume": 1553028899.5,
-        "units": 4704
+        "count": 494,
+        "volume": 1556428899.5,
+        "units": 4719
       },
       "asset_class": {
-        "count": 341,
-        "volume": 1160435729.5,
-        "units": 4688
+        "count": 342,
+        "volume": 1163835729.5,
+        "units": 4703
       },
       "asset_class_label": "Apartments",
       "local": null,
